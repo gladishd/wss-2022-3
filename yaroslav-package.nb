@@ -1,0 +1,562 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     27913,        552]
+NotebookOptionsPosition[     27128,        530]
+NotebookOutlinePosition[     27524,        546]
+CellTagsIndexPosition[     27481,        543]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Directory", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.865869611752214*^9, 3.865869627684609*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"023c4c43-2646-4b13-ba5d-502909767514"],
+
+Cell[BoxData["\<\"/Users/deangladish\"\>"], "Output",
+ CellChangeTimes->{3.865869627952322*^9, 3.865869722362838*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"1e845efc-31e0-4ecb-a761-5b0781571ebb"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"<<", 
+  "\"\</Users/deangladish/wolfram-summer-school-2022/YaroSlavPackage.wl\>\""}]\
+], "Input",
+ CellChangeTimes->{{3.865869632299568*^9, 3.865869673084299*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"d1d3700f-a3f6-4419-a260-7e282bd5f02a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"MiniMap", "[", "\"\<urbana-champaign\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8658697490828133`*^9, 3.865869754758666*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"8099ac2d-1673-47b8-a26c-a073df029acc"],
+
+Cell[BoxData[
+ GraphicsBox[{{
+    TagBox[{
+      {Texture[
+        GraphicsBox[
+         TagBox[
+          RasterBox[CompressedData["
+1:eJztnVtvW1d2xwftSx/7FfolBs0AMZBgYqBB0nRymYfM9GHGdQctggyQFOkE
+nYcCSQN0kqcJMMVM4MnIkuI4ltVYsj2SbckRRcmmRNOiZNMmKdLiTZJJix5F
+YREFfOh/n/85S1vnxsOLSEoZYImgDg8P99m/vdZea1/W+Zuf/vzFf/6L73zn
+O2/+FV5e/Mm/P/XGGz95+6W/xj+vvP7mv/zs9ZP/9Hev/9vJn518429/+pc4
++HvzT72vf106OFnP3Zm7funWjWu17az/mZXte3fWZ2O58IGWp/M3ePbZ4h++
+W735nrqFYiJ5/aMvtzK42f1SgOz+X5Gv+tdxxPV9n0sqEYnMTuB+G56J24/k
+JiGHlOyjuXfwPhMdT4dPN/V1Qhfp+e0ElEjocrWcCnaD2dKjZQg0t+fFbkp0
+sqnQwPrdyZ4XqQsCsjBNPS/GgUpp+CmQ3Y79Gm0YpvibnSN+v5QjTxYciwNP
+gOxXuav5+CXobM+L1B0Jbo0PqVTjp4AVcOuGKS6tXOp5kbojcJ+ONtnC6Ksg
++3DsxzBNMMVfP072vEjdkSNPlqb4y5WPcstXvj2muH7Uye6kRmiK0dumwsP5
+2xd6XqSuydEm+/DyCZDdHH0RIRtM8U75Ts+L1DVZmJs8wmRLg0+C7J8WP8gn
+QqmZUz0vTzflCJNFmKNM8R++C68pPX82ExnpeZG6KUeYbPnKa8C6fvbZ2nYB
+vlM5NX2Ixgbbl+j8laNKlkNPj+beKeZT7GS/bWQrm0eQ7Neb8zTF31SXM2k1
+v8N5nJ4XrGtyVMluzbwFrKUzz4BmMhEH2fqhmoNrXxTZcuMpvEMnYAqyim8+
+lU1GQdY58Xq05daNa0ePLCyw6RVvzsMUFx/cpc5+q+RIklVeE0zx0DEoKchy
+mKLnpeqyHEmynGpH1FPZzOSy98GXHlTPC9ZNUWQDLJU5RKImZA1TvLM6jk4W
+cEn2WzLhLnL0yP5p8QNligefhBGGKd6urpHst2f+jnL0yG6OvqgmZC+f2Cpn
+YYpBFvItJBuLTB0lsntrY5KfwBQ/fvSAx79tEz31I0f2y5WPOCFLr1i8ptTM
+qe2NeM+L101ZWpz2Isv11YfLpdy48CM1Ifv5D2GBobNyHGR3HsZ6XrxuihdZ
+YAVTY6y1wcaB/pFvthPm2pjEYHk9jX5WPlI6W4r2vITdFB+yh4gphSsoSkPH
+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
+dlhCFckJQAV0xj6zV8+rfFYzpygqK054WIl1BJ9+8cfP9K/w7mDP9ejJJoAO
+vw4mC0J1Fr2mQLshxfgYdFwXtRRk5RI/pchxvtrE9nUIrknh+cYmowluNWoY
+z9qOqPX86aXZ6Yu4X8CVpUGc3+S2i8pmhtuduJRUdVLGRDk6LHFX2HnhTGtc
+vYFdovVGCdn94T11ltlpoMgyXrRrZRLgfB8T2pt+UXoJZ+p9pap2wwJQ6Bep
+hFfZOM5ksKPinewysOp2hl1zbW8mKCvOlQqa4nNQ3pq140nuogsjEjWXfRZq
+ohmmFWXDfeF2mAYHhURPBC2DhgIoOy/oFw7qmLjCECI0mXKfrJVs5fU1J8H7
+WZ7M83EdkOX+ayGLkkNVBYqAg3Gw9QJ0mfQj0FOdrLDD1aQNUPBFG1nUlexg
+Yvsxy7CZUkudExHbcrhukTUzYcq4DUdyUCRYHlhF5szhfgogxu2zp+O8hmqT
+6aWWe3yjThp7F0K2Zk3YqR1/Rp4TlJzzMgiWUZlOsubI4f4j1MTWyOJqdLDR
+sKXvYEWx0lR/ZPVBTFDjvMHu6CyHyFrwUXeN3cTtkPW6rBfZurZJB1XHyXGS
+5XY8cav8yTp5gayuiTpZNUC9/2rcOgSha81mjzMlxxcsMF0+ENf398mtdYds
+8GWKzjpHK/XJx9IyRC+yiCN0suxndbJqGDm91CxZ+JDwb202XLTbRlbNC2v/
+QkmdvyhpOtgAnPfSBbL7ETctbZJttg0UK3tkVTYMo3cA2dzppxBuAAfIKpUx
+vB0KTuCYsDg2dId0XhxG1m21uqwxdIwzgZLvKarxrN7CG57Gf73I6vsOek7W
+R4+C6GzANTZNaassMVLj/5Wi6CzDkNwnz2bPvnxv8n2wZiikx1DQTWeQYguC
+EKrEQiPyL75iO0e+iF9kVCWJ1/Bv7t6iDauECX1FtinxytrRWVF7HrfyxFq3
+Viwoplk1YEtrrGYTtkt0mOvWbKyPNdZ1djU2mYiMy1gEIwIxy2J+4TU5R2DA
+GjUgTBlqyT5NnC9rmI8A2YOYmUJF0dOrc9xse+9R1Jy/qK4M3i0UhWxdPVUn
+5UNW7y4z0fH4/DiHNUhKsr/iIvi6WuxaTiHiQ6fpJKvihXyKnX7dmmMiYlzq
+zzrrj5WLA1lpPEidFbLoZ/GpTlbUljN0rjpLT0nN1WoWVc9uCjpcv8qbdZJl
+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
+/UDJMipsjeb/A602Nks=
+           "], {{0, 158.}, {158., 0}}, {0, 255}, 
+           ColorFunction -> RGBColor], 
+          BoxForm`ImageTag[
+          "Byte", ColorSpace -> "RGB", Interleaving -> True, 
+           MetaInformation -> <|
+            "Exif" -> <|
+              "Software" -> 
+               "Created with the Wolfram Language: www.wolfram.com"|>, 
+             "GeoMetaInformation" -> <|
+              "GeoModel" -> "ITRF00", 
+               "LonLatBox" -> {{-88.47595390886649, -88.04650009113357}, {
+                39.94811360752175, 40.277844501932975`}}, 
+               "PlotRange" -> {{-88.4783935546875, -88.04443359375}, {
+                43.6431884765625, 44.0771484375}}, "Projection" -> "Mercator",
+                "Software" -> 
+               "Created with the Wolfram Language: www.wolfram.com", 
+               "TileSources" -> {"Wolfram", "OSM"}|>|>], Selectable -> False],
+          DefaultBaseStyle -> "ImageGraphics", ImageSizeRaw -> {158., 158.}, 
+         PlotRange -> {{0, 158.}, {0, 158.}}]], 
+       PolygonBox[{{-88.47595390886649, 
+        43.643796050364884`}, {-88.47595390886649, 
+        44.07494481017806}, {-88.04650009113357, 
+        44.07494481017806}, {-88.04650009113357, 
+        43.643796050364884`}, {-88.47595390886649, 43.643796050364884`}},
+        VertexTextureCoordinates->{{0.005621822381357333, 
+         0.0014000688014448315`}, {0.005621822381357333, 
+         0.9949220492204347}, {0.9952380459729397, 0.9949220492204347}, {
+         0.9952380459729397, 0.0014000688014448315`}, {0.005621822381357333, 
+         0.0014000688014448315`}}]}, {
+       TagBox[
+        {RGBColor[
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[13, 51], 0.2549019607843137]], Opacity[1.], 
+         StyleBox[{
+           InsetBox["\<\"Hoopeston\"\>", {-87.66849517822266, 44.32365417480469},
+             Center], 
+           InsetBox["\<\"Fairbury\"\>", {-88.51478576660156, 44.6923828125}, 
+            Center], 
+           InsetBox["\<\"Empire\"\>", {-88.70773315429688, 44.111480712890625},
+             Center], 
+           InsetBox["\<\"Danville\"\>", {-86.52626037597656, 43.39942932128906},
+             Center], 
+           InsetBox["\<\"Randolph\"\>", {-88.98033142089844, 44.203834533691406},
+             Center], 
+           InsetBox["\<\"Monticello\"\>", {-86.7648696899414, 44.689979553222656},
+             Center], 
+           InsetBox["\<\"Georgetown\"\>", {-87.63587951660156, 43.679237365722656},
+             Center], 
+           InsetBox["\<\"Fowler\"\>", {-87.32070922851562, 44.52037811279297},
+             Center], 
+           InsetBox["\<\"Kankakee\"\>", {-86.539306640625, 45.702781677246094},
+             Center], 
+           InsetBox["\<\"Kentland\"\>", {-87.4453353881836, 44.722938537597656},
+             Center], 
+           InsetBox["\<\"Cloverdale\"\>", {-86.79405212402344, 43.08013916015625},
+             Center], 
+           InsetBox["\<\"Gilman\"\>", {-87.99224853515625, 44.71813201904297},
+             Center]},
+          StripOnInput->False,
+          LineSpacing->{1.2, 0},
+          FontFamily->"Source Sans Pro",
+          FontSize->Scaled[0.11999999999999998`]]},
+        Annotation[#, {"symbol", "place_village", "place"}, 
+         "WolframGeoGraphics"]& ], 
+       TagBox[
+        {RGBColor[
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[13, 51], 0.2549019607843137]], Opacity[1.], 
+         StyleBox[{
+           InsetBox["\<\"Decatur\"\>", \
+{-88.95252227783203, 43.509979248046875}, {Center, Bottom}], 
+           InsetBox["\<\"Kankakee\"\>", \
+{-87.86109924316406, 45.18573760986328}, {Center, Bottom}], 
+           InsetBox["\<\"Charleston\"\>", \
+{-88.17626953125, 43.05610656738281}, {Center, Bottom}], 
+           InsetBox["\<\"Rensselaer\"\>", \
+{-87.15076446533203, 44.942665100097656}, {Center, Bottom}], 
+           InsetBox["\<\"Valparaiso\"\>", \
+{-87.0611572265625, 45.65574645996094}, {Center, Bottom}], 
+           InsetBox["\<\"Watseka\"\>", \
+{-87.7364730834961, 44.730491638183594}, {Center, Bottom}], 
+           
+           InsetBox["\<\"Danville\"\>", \
+{-87.63038635253906, 43.875274658203125}, {Center, Bottom}], 
+           InsetBox["\<\"Streator\"\>", \
+{-88.8351058959961, 45.187110900878906}, {Center, Bottom}], 
+           InsetBox["\<\"Clinton\"\>", \
+{-88.96076202392578, 43.910980224609375}, {Center, Bottom}], 
+           InsetBox["\<\"Greencastle\"\>", \
+{-86.86477661132812, 43.24871063232422}, {Center, Bottom}], 
+           InsetBox["\<\"Channahon\"\>", \
+{-88.22879791259766, 45.59772491455078}, {Center, Bottom}], 
+           InsetBox["\<\"Paxton\"\>", \
+{-88.09524536132812, 44.31438446044922}, {Center, Bottom}], 
+           InsetBox["\<\"Brazil\"\>", \
+{-87.12501525878906, 43.09181213378906}, {Center, Bottom}], 
+           InsetBox["\<\"Wolcott\"\>", \
+{-87.04158782958984, 44.70680236816406}, {Center, Bottom}], 
+           InsetBox["\<\"North Judson\"\>", \
+{-86.77757263183594, 45.3131103515625}, {Center, Bottom}], 
+           InsetBox["\<\"Attica\"\>", \
+{-87.24895477294922, 44.09637451171875}, {Center, Bottom}], 
+           InsetBox["\<\"Merrillville\"\>", \
+{-87.33272552490234, 45.668792724609375}, {Center, Bottom}], 
+           InsetBox["\<\"Taylorville\"\>", \
+{-89.29447174072266, 43.12477111816406}, {Center, Bottom}], 
+           InsetBox["\<\"Peru\"\>", {-89.12864685058594, 45.46142578125}, {
+            Center, Bottom}], 
+           InsetBox["\<\"Tuscola\"\>", \
+{-88.28304290771484, 43.44989776611328}, {Center, Bottom}], 
+           InsetBox["\<\"Frankfort\"\>", \
+{-86.51081085205078, 44.077491760253906}, {Center, Bottom}], 
+           InsetBox["\<\"Rantoul\"\>", \
+{-88.15601348876953, 44.11491394042969}, {Center, Bottom}], 
+           InsetBox["\<\"Shelbyville\"\>", \
+{-88.79013061523438, 42.9400634765625}, {Center, Bottom}], 
+           InsetBox["\<\"Pontiac\"\>", \
+{-88.62979888916016, 44.86885070800781}, {Center, Bottom}], 
+           InsetBox["\<\"Paris\"\>", {-87.69630432128906, 43.20545196533203}, \
+{Center, Bottom}], 
+           InsetBox["\<\"Chicago\\nHeights\"\>", \
+{-87.63587951660156, 45.700035095214844}, {Center, Bottom}], 
+           InsetBox["\<\"Crawfordsville\"\>", \
+{-86.89910888671875, 43.7640380859375}, {Center, Bottom}], 
+           
+           InsetBox["\<\"Eureka\"\>", \
+{-89.27284240722656, 44.658050537109375}, {Center, Bottom}], 
+           InsetBox["\<\"Monticello\"\>", \
+{-88.56800079345703, 43.74584197998047}, {Center, Bottom}], 
+           InsetBox["\<\"Sullivan\"\>", \
+{-88.60782623291016, 43.190345764160156}, {Center, Bottom}]},
+          StripOnInput->False,
+          LineSpacing->{1.2, 0},
+          FontFamily->"Source Sans Pro",
+          FontSize->Scaled[0.13044221304703332`]]},
+        Annotation[#, {"symbol", "place_town", "place"}, 
+         "WolframGeoGraphics"]& ], 
+       TagBox[
+        {RGBColor[
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[67, 255], 0.2627450980392157], 
+          NCache[
+           Rational[13, 51], 0.2549019607843137]], Opacity[1.], 
+         StyleBox[{
+           InsetBox["\<\"Urbana\"\>", {-88.20716857910156, 43.857421875}, {
+            Center, Bottom}], 
+           InsetBox["\<\"Bloomington\"\>", \
+{-88.99406433105469, 44.331207275390625}, {Center, Bottom}], 
+           InsetBox["\<\"Terre Haute\"\>", \
+{-87.41374969482422, 43.01799774169922}, {Center, Bottom}], 
+           InsetBox["\<\"Lafayette\"\>", \
+{-86.87541961669922, 44.257049560546875}, {Center, Bottom}]},
+          StripOnInput->False,
+          LineSpacing->{1.2, 0},
+          FontFamily->"Source Sans Pro",
+          FontSize->Scaled[0.16610553261758335`],
+          FontWeight->"Medium"]},
+        Annotation[#, {"symbol", "place_city", "place"}, 
+         "WolframGeoGraphics"]& ]}},
+     Annotation[#, "GeoBackground", "WolframGeoGraphics"]& ], 
+    TagBox[
+     TagBox[
+      TooltipBox[
+       {Opacity[0], RectangleBox[Scaled[{0.8, 0}], Scaled[{1, 0.2}]]},
+       TagBox[
+        GridBox[{{
+           StyleBox["\"Geo data sources\"", Bold, StripOnInput -> False]}, {
+           
+           TemplateBox[{
+            "\"Wolfram Knowledgebase\"", "\" (\"", 
+             "\"https://www.wolfram.com/\"", "\")\""}, "RowDefault"]}, {
+           
+           TemplateBox[{
+            "\"\[Copyright] MapTiler\"", "\" (\"", 
+             "\"https://www.maptiler.com/copyright/\"", "\")\""}, 
+            "RowDefault"]}, {
+           
+           TemplateBox[{
+            "\"\[Copyright] OpenStreetMap contributors\"", "\" (\"", 
+             "\"https://www.openstreetmap.org/copyright\"", "\")\""}, 
+            "RowDefault"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         DefaultBaseStyle -> "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Column"]],
+      Annotation[#, 
+       Column[{
+         Style["Geo data sources", Bold], 
+         Row[{
+          "Wolfram Knowledgebase", " (", "https://www.wolfram.com/", ")"}], 
+         Row[{
+          "\[Copyright] MapTiler", " (", 
+           "https://www.maptiler.com/copyright/", ")"}], 
+         Row[{
+          "\[Copyright] OpenStreetMap contributors", " (", 
+           "https://www.openstreetmap.org/copyright", ")"}]}], "Tooltip"]& ],
+     Annotation[#, "Metadata", "WolframGeoGraphics"]& ], {{}, 
+     TagBox[{},
+      Annotation[#, "GeoGridLines", "WolframGeoGraphics"]& ]}}, 
+   TagBox[{},
+    Annotation[#, "GeoScaleBar", "WolframGeoGraphics"]& ]},
+  CoordinatesToolOptions:>{
+   "DisplayFunction" -> (
+     GeoGraphics`GeoGridPositionDisplay[#, "Mercator", "ITRF00"]& ), 
+    "CopiedValueFunction" -> (
+     GeoGraphics`GeoGridPositionCopiedValue[#, "Mercator", "ITRF00"]& )},
+  DefaultBaseStyle->"GeoGraphics",
+  ImageSize->100,
+  Method->{"OriginalInput" -> HoldForm[
+      GeoGraphics[{
+        GeoPosition[{40.112981, -88.261227}]}, ImageSize -> 100]], 
+    "BasicGeoRange" -> {{39.96310137544954, 
+     40.26285673400519}, {-88.45643328078772, -88.06602071921233}}, 
+    "GeoGraphicsOptions" -> {GeoBackground -> {
+        GeoStyling["StreetMapNoLabels"], 
+        GeoStyling["VectorLabels"]}, GeoCenter -> 
+      GeoPosition[{40.112981, -88.26122700000002}], GeoGridLines -> None, 
+      GeoGridLinesStyle -> GrayLevel[0.4, 0.3], 
+      GeoGridRange -> {{-88.47595390886649, -88.04650009113357}, {
+       43.643796050364884`, 44.07494481017806}}, GeoGridRangePadding -> None, 
+      GeoModel -> "ITRF00", GeoProjection -> "Mercator", 
+      GeoRange -> {{39.948113607521755`, 
+       40.277844501932975`}, {-88.47595390886649, -88.04650009113357}}, 
+      GeoRangePadding -> Full, GeoResolution -> Automatic, 
+      GeoServer -> {Automatic}, GeoZoomLevel -> 9, 
+      MetaInformation -> <|"GeoMetaInformation" -> <|"Attribution" -> Row[{
+             Hyperlink["Wolfram Knowledgebase", "https://www.wolfram.com/"], 
+             ", ", 
+             Hyperlink[
+             "\[Copyright] MapTiler", "https://www.maptiler.com/copyright/"], 
+             ", ", 
+             Hyperlink[
+             "\[Copyright] OpenStreetMap contributors", 
+              "https://www.openstreetmap.org/copyright"]}], "AttributionType" -> 
+          "Tooltip", "GeoModel" -> "ITRF00", 
+          "LonLatBox" -> {{-88.47595390886649, -88.04650009113357}, {
+           39.94811360752175, 40.277844501932975`}}, 
+          "PlotRange" -> {{-88.4783935546875, -88.04443359375}, {
+           43.6431884765625, 44.0771484375}}, "Projection" -> "Mercator", 
+          "Software" -> "Created with the Wolfram Language: www.wolfram.com", 
+          "TileSources" -> {"Wolfram", "OSM", "MapTiler"}|>|>}},
+  PlotRange->{{-88.47595390886649, -88.04650009113357}, {43.643796050364884`, 
+   44.07494481017806}},
+  PlotRangeClipping->True,
+  PlotRangePadding->None]], "Output",
+ CellChangeTimes->{3.865869774648785*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"9bb2f2a4-36c8-40ce-95d3-ff9f5b1720b0"]
+}, Open  ]]
+},
+WindowSize->{575, 694},
+WindowMargins->{{Automatic, 22}, {-9, Automatic}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"55f83452-69c6-45a4-8278-4520f2513e30"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 202, 3, 30, "Input",ExpressionUUID->"023c4c43-2646-4b13-ba5d-502909767514"],
+Cell[785, 27, 196, 2, 34, "Output",ExpressionUUID->"1e845efc-31e0-4ecb-a761-5b0781571ebb"]
+}, Open  ]],
+Cell[996, 32, 266, 5, 52, "Input",ExpressionUUID->"d1d3700f-a3f6-4419-a260-7e282bd5f02a"],
+Cell[CellGroupData[{
+Cell[1287, 41, 230, 3, 30, "Input",ExpressionUUID->"8099ac2d-1673-47b8-a26c-a073df029acc"],
+Cell[1520, 46, 25592, 481, 117, "Output",ExpressionUUID->"9bb2f2a4-36c8-40ce-95d3-ff9f5b1720b0"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

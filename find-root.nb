@@ -1,0 +1,189 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6152,        179]
+NotebookOptionsPosition[      4952,        151]
+NotebookOutlinePosition[      5349,        167]
+CellTagsIndexPosition[      5306,        164]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"k", ",", "lambda", ",", "tau"}], "}"}], "=", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0.0166667", ",", "0.034"}], "}"}]}], ";"}], "\n", 
+ RowBox[{"solvedR", "=", 
+  RowBox[{"NSolve", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"k", "*", "lambda", "*", "tau"}], "=", 
+     RowBox[{"R", "*", 
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", "R"}], "*", 
+        RowBox[{"(", 
+         RowBox[{"2.", "*", "tau"}], ")"}]}], "]"}], "*", "tau"}]}], ",", 
+    "R"}], "]"}]}]}], "Input",
+ CellChangeTimes->{
+  3.865871961463316*^9, {3.865872161585709*^9, 3.865872164167758*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"c2d2675b-ab08-45d1-b5be-feeb8056a4f6"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "write", 
+   "\"Tag \\!\\(\\*RowBox[{\\\"Times\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"0.0166667`\\\", \\\" \\\", \\\"0.034`\\\"}]\\) is \
+Protected.\"", 2, 72, 54, 17464588233971467474, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.865871955516964*^9, 3.865871961858801*^9}, {
+  3.8658721643994837`*^9, 3.8658721653685617`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"4e1e4052-4a70-40a7-b177-4fb07000cda2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "NSolve", "ifun", 
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"NSolve\\\"}]\\), so some solutions may not be found; use \
+Reduce for complete solution information.\"", 2, 72, 55, 17464588233971467474,
+    "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.865871955516964*^9, 3.865871961858801*^9}, {
+  3.8658721643994837`*^9, 3.865872165379582*^9}},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"af14f14b-354b-4cde-a134-3ea1cde9eb9d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"R", "\[Rule]", "0.`"}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.86587195542661*^9, 3.8658719618550367`*^9}, {
+  3.865872164465025*^9, 3.865872165391425*^9}},
+ CellLabel->"Out[72]=",ExpressionUUID->"f3fedcc1-6512-44b7-9a2e-42abb76a3d0c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"solvedR", "=", 
+  RowBox[{"NSolve", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"k", "*", "lambda", "*", "tau"}], "==", 
+     RowBox[{"R", "*", 
+      RowBox[{"Exp", "[", 
+       RowBox[{
+        RowBox[{"-", "R"}], "*", 
+        RowBox[{"(", 
+         RowBox[{"2.", "*", "tau"}], ")"}]}], "]"}], "*", "tau"}]}], ",", 
+    "R"}], "]"}]}]], "Input",
+ CellChangeTimes->{3.8658719753792963`*^9},
+ CellLabel->"In[73]:=",ExpressionUUID->"00e49ebf-e042-47cd-8863-0b0a5c9a4ed2"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "NSolve", "ifun", 
+   "\"Inverse functions are being used by \
+\\!\\(\\*RowBox[{\\\"NSolve\\\"}]\\), so some solutions may not be found; use \
+Reduce for complete solution information.\"", 2, 73, 56, 17464588233971467474,
+    "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.865871975717853*^9, 3.865872170396546*^9},
+ CellLabel->
+  "During evaluation of \
+In[73]:=",ExpressionUUID->"7e209533-8278-4342-8e03-528c6c15b58e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"R", "\[Rule]", "0.01668562114059031`"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"R", "\[Rule]", "132.01894065148159`"}], "}"}]}], "}"}]], "Output",\
+
+ CellChangeTimes->{3.8658719757339277`*^9, 3.8658721704098377`*^9},
+ CellLabel->"Out[73]=",ExpressionUUID->"ac5f4b4d-0aa4-4107-8091-830a768ab319"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FindRoot", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"k", "*", "lambda", "*", "tau"}], "==", 
+    RowBox[{"R", "*", 
+     RowBox[{"Exp", "[", 
+      RowBox[{
+       RowBox[{"-", "R"}], "*", 
+       RowBox[{"(", 
+        RowBox[{"2.", "*", "tau"}], ")"}]}], "]"}], "*", "tau"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"R", ",", "0"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.865872023063905*^9, 3.8658720931701*^9}, {
+  3.8658721329232616`*^9, 3.865872135185336*^9}},
+ CellLabel->"In[74]:=",ExpressionUUID->"a087e76a-5d44-46d0-b55a-224006f4f008"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"R", "\[Rule]", "0.016685621140590308`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.865872044593256*^9, 3.8658720937481117`*^9}, 
+   3.865872139274095*^9, 3.8658721735857277`*^9},
+ CellLabel->"Out[74]=",ExpressionUUID->"b8171ed7-7fa1-4a26-ab60-537bf904c292"]
+}, Open  ]]
+},
+WindowSize->{808, 711},
+WindowMargins->{{Automatic, 204}, {28, Automatic}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"2aee53e9-7902-496d-8057-86950bd15e19"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 731, 21, 52, "Input",ExpressionUUID->"c2d2675b-ab08-45d1-b5be-feeb8056a4f6"],
+Cell[1314, 45, 494, 11, 28, "Message",ExpressionUUID->"4e1e4052-4a70-40a7-b177-4fb07000cda2"],
+Cell[1811, 58, 529, 12, 46, "Message",ExpressionUUID->"af14f14b-354b-4cde-a134-3ea1cde9eb9d"],
+Cell[2343, 72, 300, 6, 34, "Output",ExpressionUUID->"f3fedcc1-6512-44b7-9a2e-42abb76a3d0c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2680, 83, 495, 14, 30, "Input",ExpressionUUID->"00e49ebf-e042-47cd-8863-0b0a5c9a4ed2"],
+Cell[3178, 99, 476, 11, 46, "Message",ExpressionUUID->"7e209533-8278-4342-8e03-528c6c15b58e"],
+Cell[3657, 112, 369, 9, 34, "Output",ExpressionUUID->"ac5f4b4d-0aa4-4107-8091-830a768ab319"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4063, 126, 574, 15, 30, "Input",ExpressionUUID->"a087e76a-5d44-46d0-b55a-224006f4f008"],
+Cell[4640, 143, 296, 5, 34, "Output",ExpressionUUID->"b8171ed7-7fa1-4a26-ab60-537bf904c292"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
