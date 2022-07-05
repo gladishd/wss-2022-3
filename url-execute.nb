@@ -1,0 +1,24 @@
+
+In[94]:= URLExecute@HTTPRequest["http://httpbin.org/post",<|"Body"->ExportByteArray[{"x"->{1,2,3},"x"->4},"JSON"]|>]
+Out[94]= {args->{},data->{
+	"x":[
+		1,
+		2,
+		3
+	],
+	"x":4
+},files->{},form->{},headers->{Accept->*/*,Accept-Encoding->deflate, gzip,Content-Length->35,Content-Type->text/plain;charset=iso-8859-1,Host->httpbin.org,User-Agent->Wolfram HTTPClient 13.,X-Amzn-Trace-Id->Root=1-62c46bc1-56ac05b10795d22b192e8670},json->{x->4},origin->12.10.86.74,url->http://httpbin.org/post}
+In[96]:= deck=URLExecute["http://deckofcardsapi.com/api/deck/new/shuffle/",{"deck_count"->1}]
+Out[96]= {success->True,deck_id->ww8mligal37q,remaining->52,shuffled->True}
+In[97]:= cards=URLExecute[URLBuild@{"http://deckofcardsapi.com/api/deck",Lookup[deck,"deck_id"],"draw/"},{"count"->4}]
+Out[97]= {success->True,deck_id->ww8mligal37q,cards->{{code->0H,image->https://deckofcardsapi.com/static/img/0H.png,images->{svg->https://deckofcardsapi.com/static/img/0H.svg,png->https://deckofcardsapi.com/static/img/0H.png},value->10,suit->HEARTS},{code->3D,image->https://deckofcardsapi.com/static/img/3D.png,images->{svg->https://deckofcardsapi.com/static/img/3D.svg,png->https://deckofcardsapi.com/static/img/3D.png},value->3,suit->DIAMONDS},{code->8H,image->https://deckofcardsapi.com/static/img/8H.png,images->{svg->https://deckofcardsapi.com/static/img/8H.svg,png->https://deckofcardsapi.com/static/img/8H.png},value->8,suit->HEARTS},{code->2C,image->https://deckofcardsapi.com/static/img/2C.png,images->{svg->https://deckofcardsapi.com/static/img/2C.svg,png->https://deckofcardsapi.com/static/img/2C.png},value->2,suit->CLUBS}},remaining->48}
+In[98]:= URLExecute@Cases[cards,Rule["png",url_]->url,Infinity]
+Out[98]= {,,,}
+In[102]:= deck=URLExecute["http://deckofcardsapi.com/api/deck/new/shuffle/",{"deck_count"->1}]
+
+cards=URLExecute[URLBuild@{"http://deckofcardsapi.com/api/deck",Lookup[deck,"deck_id"],"draw/"},{"count"->4}]
+
+URLExecute@Cases[cards,Rule["png",url_]->url,Infinity]
+Out[102]= {success->True,deck_id->cc4a7oqajo98,remaining->52,shuffled->True}
+Out[103]= {success->True,deck_id->cc4a7oqajo98,cards->{{code->QC,image->https://deckofcardsapi.com/static/img/QC.png,images->{svg->https://deckofcardsapi.com/static/img/QC.svg,png->https://deckofcardsapi.com/static/img/QC.png},value->QUEEN,suit->CLUBS},{code->0D,image->https://deckofcardsapi.com/static/img/0D.png,images->{svg->https://deckofcardsapi.com/static/img/0D.svg,png->https://deckofcardsapi.com/static/img/0D.png},value->10,suit->DIAMONDS},{code->JD,image->https://deckofcardsapi.com/static/img/JD.png,images->{svg->https://deckofcardsapi.com/static/img/JD.svg,png->https://deckofcardsapi.com/static/img/JD.png},value->JACK,suit->DIAMONDS},{code->5H,image->https://deckofcardsapi.com/static/img/5H.png,images->{svg->https://deckofcardsapi.com/static/img/5H.svg,png->https://deckofcardsapi.com/static/img/5H.png},value->5,suit->HEARTS}},remaining->48}
+Out[104]= {,,,}
