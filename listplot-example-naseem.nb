@@ -1,0 +1,549 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     24287,        539]
+NotebookOptionsPosition[     23579,        518]
+NotebookOutlinePosition[     23977,        534]
+CellTagsIndexPosition[     23934,        531]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"1", "->", "\"\<one\>\""}], ",", 
+    RowBox[{"2", "->", "\"\<two\>\""}], ",", 
+    RowBox[{"3", "->", "Pink"}], ",", 
+    RowBox[{"4", "->", "Yellow"}], ",", "5", ",", "6", ",", "7"}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.866194551699868*^9, 3.866194551707307*^9}},
+ CellLabel->
+  "In[442]:=",ExpressionUUID->"96545b33-9c2f-4adf-9ba8-9bc0000f604e"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, 
+   {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`], 
+    AbsoluteThickness[1.6], 
+    PointBox[{{1., 1.}, {2., 2.}, {3., 3.}, {4., 4.}, {5., 5.}, {6., 6.}, {7.,
+      7.}}]}, {{}, {{GraphicsGroupBox[{
+        {GrayLevel[1], AbsoluteThickness[4], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]], CapForm["Butt"], JoinForm[
+         "Round"], 
+         BSplineCurveBox[{
+          Offset[{2.8284271247461903`, 2.82842712474619}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{2.8284271247461903`, 2.82842712474619}, {4.037054359519678,
+             4.061115181958157}], 
+           Offset[{4.242640687119286, 4.242640687119285}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{4.242640687119286, 4.242640687119285}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{5.656854249492381, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{7.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{9.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{9.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], 
+         BSplineCurveBox[{
+          Offset[{2.8284271247461903`, 2.82842712474619}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{2.8284271247461903`, 2.82842712474619}, {4.037054359519678,
+             4.061115181958157}], 
+           Offset[{4.242640687119286, 4.242640687119285}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{4.242640687119286, 4.242640687119285}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{5.656854249492381, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{7.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{9.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}], 
+           Offset[{9.65685424949238, 5.65685424949238}, {4.037054359519678, 
+            4.061115181958157}]}]}, 
+        {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]]}], 
+         PolygonBox[{
+          Offset[{25.656854249492376`, 15.256854249492381`}, {
+            4.037054359519678, 4.061115181958157}], 
+           Offset[{25.656854249492383`, -0.7431457505076189}, {
+            4.037054359519678, 4.061115181958157}], 
+           Offset[{9.656854249492381, -0.7431457505076224}, {
+            4.037054359519678, 4.061115181958157}], 
+           Offset[{9.656854249492378, 15.256854249492378`}, {
+            4.037054359519678, 4.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], EdgeForm[None]}, {}, InsetBox[
+         StyleBox[
+          RotationBox[
+           TagBox[
+            TooltipBox[
+             TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+              "RGBColorSwatchTemplate"],
+             
+             TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>, 
+              "RGBColorSwatchTemplate"]],
+            Annotation[#, 
+             RGBColor[1, 1, 0], "Tooltip"]& ],
+           BoxRotation->0.],
+          StripOnInput->False,
+          LineOpacity->1,
+          FrontFaceOpacity->1,
+          BackFaceOpacity->1,
+          Opacity->1,
+          FontOpacity->1], 
+         Offset[{17.65685424949238, 7.256854249492379}, \
+{4.037054359519678, 4.061115181958157}], 
+         ImageScaled[{Rational[1, 2], Rational[1, 2]}]]}], GraphicsGroupBox[{
+        {GrayLevel[1], AbsoluteThickness[4], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]], CapForm["Butt"], JoinForm[
+         "Round"], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            2.9629456404803216`, 3.061115181958157}]}]}, 
+        {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]]}], 
+         PolygonBox[{
+          Offset[{-9.656854249492381, 15.256854249492381`}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-9.656854249492378, -0.743145750507618}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-25.656854249492376`, -0.7431457505076215}, {
+            2.9629456404803216`, 3.061115181958157}], 
+           Offset[{-25.656854249492383`, 15.256854249492378`}, {
+            2.9629456404803216`, 3.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], EdgeForm[None]}, {}, InsetBox[
+         StyleBox[
+          RotationBox[
+           TagBox[
+            TooltipBox[
+             TemplateBox[<|"color" -> RGBColor[1, 0.5, 0.5]|>,
+              "RGBColorSwatchTemplate"],
+             
+             TemplateBox[<|"color" -> RGBColor[1, 0.5, 0.5]|>, 
+              "RGBColorSwatchTemplate"]],
+            Annotation[#, 
+             RGBColor[1, 0.5, 0.5], "Tooltip"]& ],
+           BoxRotation->0.],
+          StripOnInput->False,
+          LineOpacity->1,
+          FrontFaceOpacity->1,
+          BackFaceOpacity->1,
+          Opacity->1,
+          FontOpacity->1], 
+         Offset[{-17.65685424949238, 7.25685424949238}, \
+{2.9629456404803216, 3.061115181958157}], 
+         ImageScaled[{Rational[1, 2], Rational[1, 2]}]]}], GraphicsGroupBox[{
+        {GrayLevel[1], AbsoluteThickness[4], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]], CapForm["Butt"], JoinForm[
+         "Round"], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {
+            1.9629456404803216`, 2.061115181958157}]}]}, 
+        {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]]}], 
+         PolygonBox[{
+          Offset[{-9.656854249492381, 13.456854249492384`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-9.656854249492378, 0.45685424949238307`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-30.656854249492376`, 0.45685424949237774`}, {
+            1.9629456404803216`, 2.061115181958157}], 
+           Offset[{-30.656854249492383`, 13.456854249492377`}, {
+            1.9629456404803216`, 2.061115181958157}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], EdgeForm[None]}, {}, InsetBox[
+         StyleBox[
+          RotationBox["\<\"two\"\>",
+           BoxRotation->0.],
+          StripOnInput->False,
+          LineOpacity->1,
+          FrontFaceOpacity->1,
+          BackFaceOpacity->1,
+          Opacity->1,
+          FontOpacity->1], 
+         Offset[{-20.15685424949238, 6.95685424949238}, \
+{1.9629456404803216, 2.061115181958157}], 
+         ImageScaled[{Rational[1, 2], Rational[1, 2]}]]}], GraphicsGroupBox[{
+        {GrayLevel[1], AbsoluteThickness[4], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]], CapForm["Butt"], JoinForm[
+         "Round"], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], 
+         BSplineCurveBox[{
+          Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-2.82842712474619, 2.8284271247461903`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-4.242640687119285, 4.242640687119286}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-5.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-7.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}], 
+           Offset[{-9.65685424949238, 5.656854249492381}, {0.9629456404803216,
+             1.0611151819581572`}]}]}, 
+        {EdgeForm[None], FaceForm[{GrayLevel[1], Opacity[
+          NCache[
+           Rational[2, 3], 0.6666666666666666]]}], 
+         PolygonBox[{
+          Offset[{-9.656854249492381, 12.256854249492383`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-9.656854249492378, 1.256854249492383}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-31.656854249492376`, 1.2568542494923776`}, {
+            0.9629456404803216, 1.0611151819581572`}], 
+           Offset[{-31.656854249492383`, 12.256854249492378`}, {
+            0.9629456404803216, 1.0611151819581572`}]}]}, 
+        {RGBColor[0.6666666666666666, 0.6666666666666666, 0.6666666666666666],
+          AbsoluteThickness[1.25], EdgeForm[None]}, {}, InsetBox[
+         StyleBox[
+          RotationBox["\<\"one\"\>",
+           BoxRotation->0.],
+          StripOnInput->False,
+          LineOpacity->1,
+          FrontFaceOpacity->1,
+          BackFaceOpacity->1,
+          Opacity->1,
+          FontOpacity->1], 
+         Offset[{-20.65685424949238, 6.75685424949238}, \
+{0.9629456404803216, 1.0611151819581572}], 
+         ImageScaled[{Rational[1, 2], Rational[1, 2]}]]}]}, {}}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  ImagePadding->{{All, All}, {All, All}},
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0., 7}, {0, 7.}},
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.08]}, {
+     Scaled[0.02], 
+     Scaled[0.0970820393249937]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{3.866194552742009*^9},
+ CellLabel->
+  "Out[442]=",ExpressionUUID->"b7dd583f-2cf1-4df0-93d1-b1dbc4b3b62d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListPlot", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "26", ",", "26", ",", "21", ",", "24", ",", "24", ",", "34", ",", "45", 
+       ",", "84", ",", "103", ",", "92", ",", "36", ",", "28"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "18", ",", "65", ",", "89", ",", "74", ",", "89", ",", "68", ",", "32", 
+       ",", "43", ",", "67", ",", "74", ",", "53", ",", "20"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "9", ",", "12", ",", "37", ",", "27", ",", "48", ",", "23", ",", "45", 
+       ",", "27", ",", ".37", ",", "35", ",", "58", ",", "18"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+      "30", ",", "36", ",", "51", ",", "93", ",", "111", ",", "30", ",", "30",
+        ",", "35", ",", "60", ",", "36", ",", "59", ",", "29"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"PlotMarkers", "->", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"\[FilledDiamond]", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\[FilledSquare]", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\[FilledUpTriangle]", ",", "10"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\[MathematicaIcon]", ",", "10"}], "}"}]}], "}"}]}], ",", 
+   RowBox[{"Joined", "->", "True"}], ",", 
+   RowBox[{"PlotLabel", "->", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+     "\"\<Figure 5.2: Annual Frequency of Suspected Malaria Cases in the \
+Study Area\>\"", ",", 
+      RowBox[{"FontSize", "->", "10"}]}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.866194722813548*^9, 3.866194878864832*^9}, 
+   3.86619493169983*^9, {3.8661949803025217`*^9, 3.866195076522821*^9}, {
+   3.866195126646891*^9, 3.866195172591681*^9}},
+ CellLabel->
+  "In[450]:=",ExpressionUUID->"cb9d90eb-750c-4991-b32a-12c6e0973a54"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {{{}, {}, 
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      LineBox[{{1., 26.}, {2., 26.}, {3., 21.}, {4., 24.}, {5., 24.}, {6., 
+       34.}, {7., 45.}, {8., 84.}, {9., 103.}, {10., 92.}, {11., 36.}, {12., 
+       28.}}]}, 
+     {RGBColor[0.880722, 0.611041, 0.142051], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      LineBox[{{1., 18.}, {2., 65.}, {3., 89.}, {4., 74.}, {5., 89.}, {6., 
+       68.}, {7., 32.}, {8., 43.}, {9., 67.}, {10., 74.}, {11., 53.}, {12., 
+       20.}}]}, 
+     {RGBColor[0.560181, 0.691569, 0.194885], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      LineBox[{{1., 9.}, {2., 12.}, {3., 37.}, {4., 27.}, {5., 48.}, {6., 
+       23.}, {7., 45.}, {8., 27.}, {9., 0.37}, {10., 35.}, {11., 58.}, {12., 
+       18.}}]}, 
+     {RGBColor[0.922526, 0.385626, 0.209179], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      LineBox[{{1., 30.}, {2., 36.}, {3., 51.}, {4., 93.}, {5., 111.}, {6., 
+       30.}, {7., 30.}, {8., 35.}, {9., 60.}, {10., 36.}, {11., 59.}, {12., 
+       29.}}]}}, {
+     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      GeometricTransformationBox[InsetBox[
+        StyleBox["\[FilledDiamond]",
+         StripOnInput->False,
+         GraphicsBoxOptions->{DefaultBaseStyle->Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.368417, 0.506779, 0.709798], 
+           AbsoluteThickness[1.6]]}], {0., 0.}, Automatic, Offset[10]], {{{1.,
+        26.}}, {{2., 26.}}, {{3., 21.}}, {{4., 24.}}, {{5., 24.}}, {{6., 
+       34.}}, {{7., 45.}}, {{8., 84.}}, {{9., 103.}}, {{10., 92.}}, {{11., 
+       36.}}, {{12., 28.}}}]}, 
+     {RGBColor[0.880722, 0.611041, 0.142051], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      GeometricTransformationBox[InsetBox[
+        StyleBox["\[FilledSquare]",
+         StripOnInput->False,
+         GraphicsBoxOptions->{DefaultBaseStyle->Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.880722, 0.611041, 0.142051], 
+           AbsoluteThickness[1.6]]}], {0., 0.}, Automatic, Offset[10]], {{{1.,
+        18.}}, {{2., 65.}}, {{3., 89.}}, {{4., 74.}}, {{5., 89.}}, {{6., 
+       68.}}, {{7., 32.}}, {{8., 43.}}, {{9., 67.}}, {{10., 74.}}, {{11., 
+       53.}}, {{12., 20.}}}]}, 
+     {RGBColor[0.560181, 0.691569, 0.194885], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      GeometricTransformationBox[InsetBox[
+        StyleBox["\[FilledUpTriangle]",
+         StripOnInput->False,
+         GraphicsBoxOptions->{DefaultBaseStyle->Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.560181, 0.691569, 0.194885], 
+           AbsoluteThickness[1.6]]}], {0., 0.}, Automatic, Offset[10]], {{{1.,
+        9.}}, {{2., 12.}}, {{3., 37.}}, {{4., 27.}}, {{5., 48.}}, {{6., 
+       23.}}, {{7., 45.}}, {{8., 27.}}, {{9., 0.37}}, {{10., 35.}}, {{11., 
+       58.}}, {{12., 18.}}}]}, 
+     {RGBColor[0.922526, 0.385626, 0.209179], PointSize[
+      0.012833333333333334`], AbsoluteThickness[1.6], 
+      GeometricTransformationBox[InsetBox[
+        StyleBox["\[MathematicaIcon]",
+         StripOnInput->False,
+         GraphicsBoxOptions->{DefaultBaseStyle->Directive[
+           PointSize[0.012833333333333334`], 
+           RGBColor[0.922526, 0.385626, 0.209179], 
+           AbsoluteThickness[1.6]]}], {0., 0.}, Automatic, Offset[10]], {{{1.,
+        30.}}, {{2., 36.}}, {{3., 51.}}, {{4., 93.}}, {{5., 111.}}, {{6., 
+       30.}}, {{7., 30.}}, {{8., 35.}}, {{9., 60.}}, {{10., 36.}}, {{11., 
+       59.}}, {{12., 29.}}}]}}}, {{}, {}}},
+  AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+  Axes->{True, True},
+  AxesLabel->{None, None},
+  AxesOrigin->{0., 0},
+  DisplayFunction->Identity,
+  Frame->{{False, False}, {False, False}},
+  FrameLabel->{{None, None}, {None, None}},
+  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  GridLines->{None, None},
+  GridLinesStyle->Directive[
+    GrayLevel[0.5, 0.4]],
+  Method->{
+   "OptimizePlotMarkers" -> True, "OptimizePlotMarkers" -> True, 
+    "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        Identity[
+         Part[#, 1]], 
+        Identity[
+         Part[#, 2]]}& )}},
+  PlotLabel->FormBox[
+    StyleBox[
+    "\"Figure 5.2: Annual Frequency of Suspected Malaria Cases in the Study \
+Area\"", FontSize -> 10, StripOnInput -> False], TraditionalForm],
+  PlotRange->{{0., 12.}, {0, 111.}},
+  PlotRangeClipping->True,
+  PlotRangePadding->{{
+     Scaled[0.02], 
+     Scaled[0.02]}, {
+     Scaled[0.02], 
+     Scaled[0.05]}},
+  Ticks->{Automatic, Automatic}]], "Output",
+ CellChangeTimes->{
+  3.866194723348139*^9, 3.866194860368671*^9, 3.866195030526465*^9, {
+   3.86619506217135*^9, 3.866195076842332*^9}, {3.86619514290623*^9, 
+   3.866195173213726*^9}},
+ CellLabel->
+  "Out[450]=",ExpressionUUID->"de22bfbe-0abf-47a3-bb22-432308f255cf"]
+}, Open  ]]
+},
+WindowSize->{974, 711},
+WindowMargins->{{Automatic, 85}, {-146, Automatic}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9cf98a9f-50f9-48f9-95dc-fb785a534b4f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 442, 11, 30, "Input",ExpressionUUID->"96545b33-9c2f-4adf-9ba8-9bc0000f604e"],
+Cell[1025, 35, 15538, 320, 251, "Output",ExpressionUUID->"b7dd583f-2cf1-4df0-93d1-b1dbc4b3b62d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16600, 360, 1816, 44, 94, "Input",ExpressionUUID->"cb9d90eb-750c-4991-b32a-12c6e0973a54"],
+Cell[18419, 406, 5144, 109, 280, "Output",ExpressionUUID->"de22bfbe-0abf-47a3-bb22-432308f255cf"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
