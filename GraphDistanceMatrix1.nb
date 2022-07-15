@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    716249,      12715]
-NotebookOptionsPosition[    713359,      12662]
-NotebookOutlinePosition[    713754,      12678]
-CellTagsIndexPosition[    713711,      12675]
+NotebookDataLength[    801680,      14594]
+NotebookOptionsPosition[    798888,      14542]
+NotebookOutlinePosition[    799283,      14558]
+CellTagsIndexPosition[    799240,      14555]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -2990,450 +2990,421 @@ fYeYuDexJJrGW4HQRaaOdanlSLRI/ZujyYRN5vNXM0llOBUTxvCxKIdEJXtz
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Table", "[", 
-  RowBox[{
-   RowBox[{"Table", "[", 
-    RowBox[{
-     RowBox[{"Table", "[", 
-      RowBox[{
-       RowBox[{"Table", "[", 
+ RowBox[{
+  RowBox[{"Table", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"Labeled", "[", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"ArrayPlot", "[", 
+       RowBox[{
         RowBox[{
-         RowBox[{"Table", "[", "\[IndentingNewLine]", 
+         RowBox[{"GraphDistanceMatrix", "[", 
           RowBox[{
-           RowBox[{"Labeled", "[", "\[IndentingNewLine]", 
-            RowBox[{
-             RowBox[{"ArrayPlot", "[", 
-              RowBox[{
-               RowBox[{
-                RowBox[{"GraphDistanceMatrix", "[", 
-                 RowBox[{
-                  InterpretationBox[
-                   TagBox[
-                    FrameBox[
-                    PaneBox[GridBox[{
-                    {
-                    StyleBox[
-                    StyleBox[
+           InterpretationBox[
+            TagBox[
+             FrameBox[
+              PaneBox[GridBox[{
+                 {
+                  StyleBox[
+                   StyleBox[
                     AdjustmentBox["\<\"[\[FilledSmallSquare]]\"\>",
                     BoxBaselineShift->-0.25,
                     BoxMargins->{{0, 0}, {-1, -1}}], "ResourceFunctionIcon",
                     FontColor->GrayLevel[0.45]],
-                    ShowStringCharacters->False,
-                    FontFamily->"Source Sans Pro Black",
-                    FontSize->0.65 Inherited,
-                    FontWeight->"Heavy",
-                    PrivateFontOptions->{"OperatorSubstitution"->False}], 
-                    StyleBox[
-                    RowBox[{
+                   ShowStringCharacters->False,
+                   FontFamily->"Source Sans Pro Black",
+                   FontSize->0.65 Inherited,
+                   FontWeight->"Heavy",
+                   PrivateFontOptions->{"OperatorSubstitution"->False}], 
+                  StyleBox[
+                   RowBox[{
                     
                     StyleBox["\<\"BranchialGraph\"\>", 
                     "ResourceFunctionLabel"], " "}],
-                    ShowAutoStyles->False,
-                    ShowStringCharacters->False,
-                    FontSize->0.9 Inherited,
-                    FontColor->GrayLevel[0.1]]}
-                    },
-                    GridBoxSpacings->{"Columns" -> {{0.25}}}],
-                    Alignment->Left,
-                    
-                    BaseStyle->{
-                    LineSpacing -> {0, 0}, LineBreakWithin -> False},
-                    BaselinePosition->Baseline,
-                    FrameMargins->{{3, 0}, {0, 0}}],
-                    Background->RGBColor[0.968627, 0.976471, 0.984314],
-                    BaselinePosition->Baseline,
-                    DefaultBaseStyle->{},
-                    FrameMargins->{{0, 0}, {1, 1}},
-                    FrameStyle->RGBColor[0.831373, 0.847059, 0.85098],
-                    RoundingRadius->4],
-                    {"FunctionResourceBox", 
-                    GrayLevel[0.45], "\"BranchialGraph\""},
-                    TagBoxNote->"FunctionResourceBox"],
-                   ResourceFunction[
-                    
-                    ResourceObject[<|
-                    "Name" -> "BranchialGraph", "UUID" -> 
-                    "a519aabc-1b40-49ea-950c-dc56ac7f957f", "ResourceType" -> 
-                    "Function", "Version" -> None, "FunctionLocation" -> 
-                    CloudObject[
-                    "https://www.wolframcloud.com/obj/wolframphysics/\
-Resources/a51/a519aabc-1b40-49ea-950c-dc56ac7f957f/download/DefinitionData"], 
-                    "ShortName" -> "BranchialGraph", "SymbolName" -> 
-                    "FunctionRepository`$a519aabc1b4049ea950cdc56ac7f957f`\
+                   ShowAutoStyles->False,
+                   ShowStringCharacters->False,
+                   FontSize->0.9 Inherited,
+                   FontColor->GrayLevel[0.1]]}
+                },
+                GridBoxSpacings->{"Columns" -> {{0.25}}}],
+               Alignment->Left,
+               BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
+               BaselinePosition->Baseline,
+               FrameMargins->{{3, 0}, {0, 0}}],
+              Background->RGBColor[0.968627, 0.976471, 0.984314],
+              BaselinePosition->Baseline,
+              DefaultBaseStyle->{},
+              FrameMargins->{{0, 0}, {1, 1}},
+              FrameStyle->RGBColor[0.831373, 0.847059, 0.85098],
+              RoundingRadius->4],
+             {"FunctionResourceBox", 
+              GrayLevel[0.45], "\"BranchialGraph\""},
+             TagBoxNote->"FunctionResourceBox"],
+            ResourceFunction[
+             
+             ResourceObject[<|
+              "Name" -> "BranchialGraph", "UUID" -> 
+               "a519aabc-1b40-49ea-950c-dc56ac7f957f", "ResourceType" -> 
+               "Function", "Version" -> None, "FunctionLocation" -> 
+               CloudObject[
+                "https://www.wolframcloud.com/obj/wolframphysics/Resources/\
+a51/a519aabc-1b40-49ea-950c-dc56ac7f957f/download/DefinitionData"], 
+               "ShortName" -> "BranchialGraph", "SymbolName" -> 
+               "FunctionRepository`$a519aabc1b4049ea950cdc56ac7f957f`\
 BranchialGraph", "ResourceLocations" -> {
-                    CloudObject[
-                    "https://www.wolframcloud.com/obj/wolframphysics/\
-Resources/a51/a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" -> 
-                    URL["https://www.wolframcloud.com/obj/wolframphysics/\
+                 CloudObject[
+                 "https://www.wolframcloud.com/obj/wolframphysics/Resources/\
+a51/a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" -> 
+               URL["https://www.wolframcloud.com/obj/wolframphysics/\
 BranchialGraph"], "ExampleNotebookData" -> Automatic|>]],
-                   Selectable->False], "[", 
-                  RowBox[{"NestGraph", "[", 
-                   RowBox[{
-                    RowBox[{"ReplaceList", "[", 
-                    RowBox[{"{", "\[IndentingNewLine]", 
-                    RowBox[{
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"left___", ",", "0", ",", "0", ",", "s___"}], 
-                    "}"}], ":>", 
-                    RowBox[{"Flatten", "[", 
-                    RowBox[{"{", 
-                    RowBox[{"left", ",", "s", ",", 
+            Selectable->False], "[", 
+           RowBox[{"NestGraph", "[", 
+            RowBox[{
+             RowBox[{"ReplaceList", "[", 
+              RowBox[{"{", "\[IndentingNewLine]", 
+               RowBox[{
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"left___", ",", "0", ",", "0", ",", "s___"}], "}"}],
+                  ":>", 
+                 RowBox[{"Flatten", "[", 
+                  RowBox[{"{", 
+                   RowBox[{"left", ",", "s", ",", 
                     RowBox[{
                     RowBox[{"Tuples", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
                     RowBox[{"[", "i1", "]"}], "]"}]}], "}"}], "]"}]}], ",", 
-                    "\[IndentingNewLine]", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"left___", ",", "1", ",", "0", ",", "s___"}], 
-                    "}"}], ":>", 
-                    RowBox[{"Flatten", "[", 
-                    RowBox[{"{", 
-                    RowBox[{"left", ",", "s", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"left___", ",", "1", ",", "0", ",", "s___"}], "}"}],
+                  ":>", 
+                 RowBox[{"Flatten", "[", 
+                  RowBox[{"{", 
+                   RowBox[{"left", ",", "s", ",", 
                     RowBox[{
                     RowBox[{"Tuples", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
                     RowBox[{"[", "i2", "]"}], "]"}]}], "}"}], "]"}]}], ",", 
-                    "\[IndentingNewLine]", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"left___", ",", "0", ",", "1", ",", "s___"}], 
-                    "}"}], ":>", 
-                    RowBox[{"Flatten", "[", 
-                    RowBox[{"{", 
-                    RowBox[{"left", ",", "s", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"left___", ",", "0", ",", "1", ",", "s___"}], "}"}],
+                  ":>", 
+                 RowBox[{"Flatten", "[", 
+                  RowBox[{"{", 
+                   RowBox[{"left", ",", "s", ",", 
                     RowBox[{
                     RowBox[{"Tuples", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
                     RowBox[{"[", "i3", "]"}], "]"}]}], "}"}], "]"}]}], ",", 
-                    "\[IndentingNewLine]", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"left___", ",", "1", ",", "1", ",", "s___"}], 
-                    "}"}], ":>", 
-                    RowBox[{"Flatten", "[", 
-                    RowBox[{"{", 
-                    RowBox[{"left", ",", "s", ",", 
+                "\[IndentingNewLine]", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"left___", ",", "1", ",", "1", ",", "s___"}], "}"}],
+                  ":>", 
+                 RowBox[{"Flatten", "[", 
+                  RowBox[{"{", 
+                   RowBox[{"left", ",", "s", ",", 
                     RowBox[{
                     RowBox[{"Tuples", "[", 
                     RowBox[{
                     RowBox[{"{", 
                     RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
                     RowBox[{"[", "i4", "]"}], "]"}]}], "}"}], "]"}]}]}], 
-                    "}"}], "]"}], ",", 
-                    RowBox[{"{", 
-                    RowBox[{
-                    RowBox[{"Tuples", "[", 
-                    RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "l"}], "]"}], "[", 
-                    RowBox[{"[", "k", "]"}], "]"}], "}"}], ",", "t", ",", 
-                    RowBox[{"VertexShapeFunction", "->", 
-                    RowBox[{"_", "->", 
-                    RowBox[{"(", 
-                    RowBox[{
-                    RowBox[{"Inset", "[", 
-                    RowBox[{
-                    RowBox[{"ArrayPlot", "[", 
+               "}"}], "]"}], ",", 
+             RowBox[{"{", 
+              RowBox[{
+               RowBox[{"Tuples", "[", 
+                RowBox[{
+                 RowBox[{"{", 
+                  RowBox[{"0", ",", "1"}], "}"}], ",", "l"}], "]"}], "[", 
+               RowBox[{"[", "k", "]"}], "]"}], "}"}], ",", "t", ",", 
+             RowBox[{"VertexShapeFunction", "->", 
+              RowBox[{"_", "->", 
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"Inset", "[", 
+                  RowBox[{
+                   RowBox[{"ArrayPlot", "[", 
                     RowBox[{
                     RowBox[{"{", "#2", "}"}], ",", 
                     RowBox[{"ImageSize", "->", "32"}]}], "]"}], ",", "#1", 
-                    ",", "#3"}], "]"}], "&"}], ")"}]}]}], ",", 
-                    RowBox[{
-                    "GraphLayout", "->", "\"\<LayeredDigraphEmbedding\>\""}], 
-                    ",", 
-                    RowBox[{"PerformanceGoal", "->", "\"\<Quality\>\""}]}], 
-                   "]"}], "]"}], "]"}], "/.", 
-                RowBox[{"\[Infinity]", "->", "0"}]}], ",", 
-               RowBox[{
-               "ColorFunction", "\[Rule]", "\"\<TemperatureMap\>\""}]}], 
-              "]"}], "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
-             RowBox[{
-              RowBox[{
-              "StringTemplate", "[", 
-               "\"\<{0,0,s___}->`a`\n{1,0,s___}->`b`\n{0,1,s___}->`c`\n\
+                   ",", "#3"}], "]"}], "&"}], ")"}]}]}], ",", 
+             RowBox[{"GraphLayout", "->", "\"\<LayeredDigraphEmbedding\>\""}],
+              ",", 
+             RowBox[{"PerformanceGoal", "->", "\"\<Quality\>\""}]}], "]"}], 
+           "]"}], "]"}], "/.", 
+         RowBox[{"\[Infinity]", "->", "0"}]}], ",", 
+        RowBox[{"ColorFunction", "\[Rule]", "\"\<TemperatureMap\>\""}]}], 
+       "]"}], "\[IndentingNewLine]", ",", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+       "StringTemplate", "[", 
+        "\"\<{0,0,s___}->`a`\n{1,0,s___}->`b`\n{0,1,s___}->`c`\n\
 {1,1,s___}->`d`\n`e`\>\"", "]"}], "\[IndentingNewLine]", "[", 
-              RowBox[{"<|", "\[IndentingNewLine]", 
-               RowBox[{
-                RowBox[{"\"\<a\>\"", "->", 
-                 RowBox[{
-                  RowBox[{"Tuples", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
-                  RowBox[{"[", "i1", "]"}], "]"}]}], ",", 
-                "\[IndentingNewLine]", 
-                RowBox[{"\"\<b\>\"", "->", 
-                 RowBox[{
-                  RowBox[{"Tuples", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
-                  RowBox[{"[", "i2", "]"}], "]"}]}], ",", 
-                "\[IndentingNewLine]", 
-                RowBox[{"\"\<c\>\"", ":>", 
-                 RowBox[{
-                  RowBox[{"Tuples", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
-                  RowBox[{"[", "i3", "]"}], "]"}]}], ",", 
-                "\[IndentingNewLine]", 
-                RowBox[{"\"\<d\>\"", ":>", 
-                 RowBox[{
-                  RowBox[{"Tuples", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
-                  RowBox[{"[", "i4", "]"}], "]"}]}], ",", 
-                "\[IndentingNewLine]", 
-                RowBox[{"\"\<e\>\"", ":>", 
-                 RowBox[{
-                  RowBox[{"Tuples", "[", 
-                   RowBox[{
-                    RowBox[{"{", 
-                    RowBox[{"0", ",", "1"}], "}"}], ",", "l"}], "]"}], "[", 
-                  RowBox[{"[", "k", "]"}], "]"}]}]}], "\[IndentingNewLine]", 
-               "|>"}], "]"}]}], "]"}], "\[IndentingNewLine]", ",", 
-           RowBox[{"{", 
-            RowBox[{"t", ",", "1", ",", "5"}], "}"}]}], "]"}], ",", 
-         "\[IndentingNewLine]", 
-         RowBox[{"{", 
-          RowBox[{"i1", ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}], ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", 
-         "\[IndentingNewLine]", 
-         RowBox[{"{", 
-          RowBox[{"i2", ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}], ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", 
-         "\[IndentingNewLine]", 
-         RowBox[{"{", 
-          RowBox[{"i3", ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}], ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", 
-         "\[IndentingNewLine]", 
-         RowBox[{"{", 
-          RowBox[{"i4", ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}], ",", 
-           RowBox[{"2", "^", 
-            RowBox[{"(", 
-             RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}]}], "]"}], ",", 
-       "\[IndentingNewLine]", 
-       RowBox[{"{", 
-        RowBox[{"j", ",", "3", ",", "3"}], "}"}]}], "]"}], ",", 
-     "\[IndentingNewLine]", 
-     RowBox[{"{", 
-      RowBox[{"k", ",", 
-       RowBox[{"2", "^", "l"}], ",", 
-       RowBox[{"2", "^", "l"}]}], "}"}]}], "]"}], ",", "\[IndentingNewLine]", 
-   
-   RowBox[{"{", 
-    RowBox[{"l", ",", "3", ",", "3"}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.8664833215023613`*^9, 3.866483354593927*^9}},
- CellLabel->
-  "In[1742]:=",ExpressionUUID->"4064afb3-7584-4933-8e6d-304b7c85e63f"],
-
-Cell[BoxData[
- TemplateBox[{
-  "ArrayPlot", "mat", 
-   "\"Argument \\!\\(\\*RowBox[{\\\"$Aborted\\\", \\\"[\\\", \\\"]\\\"}]\\) \
-at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) is not a list of lists.\"", 2, 
-   1742, 317, 17468494094434870852, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{{3.866483313971899*^9, 3.866483355194745*^9}},
- CellLabel->
-  "During evaluation of \
-In[1742]:=",ExpressionUUID->"ac86d038-377a-488f-ac78-feb26f45d75c"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"{", 
+       RowBox[{"<|", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"\"\<a\>\"", "->", 
+          RowBox[{
+           RowBox[{"Tuples", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
+           RowBox[{"[", "i1", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<b\>\"", "->", 
+          RowBox[{
+           RowBox[{"Tuples", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
+           RowBox[{"[", "i2", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<c\>\"", ":>", 
+          RowBox[{
+           RowBox[{"Tuples", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
+           RowBox[{"[", "i3", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<d\>\"", ":>", 
+          RowBox[{
+           RowBox[{"Tuples", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "1"}], "}"}], ",", "j"}], "]"}], "[", 
+           RowBox[{"[", "i4", "]"}], "]"}]}], ",", "\[IndentingNewLine]", 
+         RowBox[{"\"\<e\>\"", ":>", 
+          RowBox[{
+           RowBox[{"Tuples", "[", 
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"0", ",", "1"}], "}"}], ",", "l"}], "]"}], "[", 
+           RowBox[{"[", "k", "]"}], "]"}]}]}], "\[IndentingNewLine]", "|>"}], 
+       "]"}]}], "]"}], "\[IndentingNewLine]", ",", 
+    RowBox[{"{", 
+     RowBox[{"t", ",", "1", ",", "5"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"i1", ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}], ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"i2", ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}], ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"i3", ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}], ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"i4", ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}], ",", 
+      RowBox[{"2", "^", 
+       RowBox[{"(", 
+        RowBox[{"j", "-", "1"}], ")"}]}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "3", ",", "3"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"k", ",", 
+      RowBox[{"2", "^", "l"}], ",", 
+      RowBox[{"2", "^", "l"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"l", ",", "3", ",", "3"}], "}"}]}], "]"}], "/.", 
+  RowBox[{
    RowBox[{"{", 
     RowBox[{"{", 
      RowBox[{"{", 
       RowBox[{"{", 
        RowBox[{"{", 
         RowBox[{"{", 
-         RowBox[{
-          TemplateBox[{
-            RowBox[{"ArrayPlot", "[", 
-              RowBox[{
-                RowBox[{"$Aborted", "[", "]"}], ",", 
-                RowBox[{"ColorFunction", "\[Rule]", "\"TemperatureMap\""}]}], 
-              "]"}], "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, \
-1}\\n{0,1,s___}->{0, 1, 1}\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
-           "Labeled",
-           DisplayFunction->(GridBox[{{
-               TagBox[
-                ItemBox[
-                 PaneBox[
-                  TagBox[#, "SkipImageSizeLevel"], 
-                  Alignment -> {Center, Baseline}, BaselinePosition -> 
-                  Baseline], DefaultBaseStyle -> "Labeled"], 
-                "SkipImageSizeLevel"]}, {
-               ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             BaselinePosition -> {1, 1}]& ),
-           InterpretationFunction->(RowBox[{"Labeled", "[", 
-              RowBox[{#, ",", #2, ",", 
-                RowBox[{"{", "}"}]}], "]"}]& )], ",", 
-          TemplateBox[{
-            GraphicsBox[
-             
-             RasterBox[{{{0.817319, 0.134127, 0.164218}, {0.178927, 0.305394, 
-              0.933501}}, {{0.178927, 0.305394, 0.933501}, {0.817319, 
-              0.134127, 0.164218}}}, {{0, 0}, {2, 2}}, {0, 1}], Frame -> 
-             Automatic, FrameLabel -> {None, None}, 
-             FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
-             Directive[
-               GrayLevel[0.5, 0.4]], 
-             Method -> {
-              "DefaultBoundaryStyle" -> Automatic, 
-               "DefaultGraphicsInteraction" -> {
-                "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-                 "Effects" -> {
-                  "Highlight" -> {"ratio" -> 2}, 
-                   "HighlightPoint" -> {"ratio" -> 2}, 
-                   "Droplines" -> {
-                    "freeformCursorMode" -> True, 
-                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-               "DefaultPlotStyle" -> Automatic}], 
-            "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, \
-1}\\n{0,1,s___}->{0, 1, 1}\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
-           "Labeled",
-           DisplayFunction->(GridBox[{{
-               TagBox[
-                ItemBox[
-                 PaneBox[
-                  TagBox[#, "SkipImageSizeLevel"], 
-                  Alignment -> {Center, Baseline}, BaselinePosition -> 
-                  Baseline], DefaultBaseStyle -> "Labeled"], 
-                "SkipImageSizeLevel"]}, {
-               ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             BaselinePosition -> {1, 1}]& ),
-           InterpretationFunction->(RowBox[{"Labeled", "[", 
-              RowBox[{#, ",", #2, ",", 
-                RowBox[{"{", "}"}]}], "]"}]& )], ",", 
-          TemplateBox[{
-            GraphicsBox[
-             RasterBox[CompressedData["
+         RowBox[{"{", "x_", "}"}], "}"}], "}"}], "}"}], "}"}], "}"}], "}"}], "->",
+    "x"}]}]], "Input",
+ CellChangeTimes->{{3.8664833215023613`*^9, 3.866483354593927*^9}, {
+  3.8668247487131987`*^9, 3.8668247795145607`*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"4064afb3-7584-4933-8e6d-304b7c85e63f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ArrayPlot", "mat", 
+   "\"Argument \\!\\(\\*RowBox[{\\\"$Aborted\\\", \\\"[\\\", \\\"]\\\"}]\\) \
+at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) is not a list of lists.\"", 2, 59,
+    8, 17470775585939144643, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.866483313971899*^9, 3.866483355194745*^9}, {
+  3.866824746267367*^9, 3.8668247798513727`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[59]:=",ExpressionUUID->"e41fedfb-2a54-4064-a99a-a1e7baa96d2c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     RowBox[{"ArrayPlot", "[", 
+       RowBox[{
+         RowBox[{"$Aborted", "[", "]"}], ",", 
+         RowBox[{"ColorFunction", "\[Rule]", "\"TemperatureMap\""}]}], "]"}], 
+     "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, 1}\\n{0,1,s___}->{0, 1, 1}\
+\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
+    "Labeled",
+    DisplayFunction->(GridBox[{{
+        TagBox[
+         ItemBox[
+          PaneBox[
+           TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+           BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+         "SkipImageSizeLevel"]}, {
+        ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+      AutoDelete -> False, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      BaselinePosition -> {1, 1}]& ),
+    InterpretationFunction->(RowBox[{"Labeled", "[", 
+       RowBox[{#, ",", #2, ",", 
+         RowBox[{"{", "}"}]}], "]"}]& )], ",", 
+   TemplateBox[{
+     GraphicsBox[
+      RasterBox[{{{0.817319, 0.134127, 0.164218}, {0.178927, 0.305394, 
+       0.933501}}, {{0.178927, 0.305394, 0.933501}, {0.817319, 0.134127, 
+       0.164218}}}, {{0, 0}, {2, 2}}, {0, 1}], Frame -> Automatic, 
+      FrameLabel -> {None, None}, FrameTicks -> {{None, None}, {None, None}}, 
+      GridLinesStyle -> Directive[
+        GrayLevel[0.5, 0.4]], 
+      Method -> {
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic}], 
+     "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, 1}\\n{0,1,s___}->{0, 1, 1}\
+\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
+    "Labeled",
+    DisplayFunction->(GridBox[{{
+        TagBox[
+         ItemBox[
+          PaneBox[
+           TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+           BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+         "SkipImageSizeLevel"]}, {
+        ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+      AutoDelete -> False, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      BaselinePosition -> {1, 1}]& ),
+    InterpretationFunction->(RowBox[{"Labeled", "[", 
+       RowBox[{#, ",", #2, ",", 
+         RowBox[{"{", "}"}]}], "]"}]& )], ",", 
+   TemplateBox[{
+     GraphicsBox[
+      RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGBgh2IQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W3tc4vua
 51s01L23l791nKtu9nt7IeErH3R1qCdOqntIdafoiTc6Veqv7EWiHS8LaR+0
 d+TfmivBehSnOKnm0zo8cZmDy/20die1wn+g0sNQSc+0Fh9s7gcALy9AmA==
 
-              "], {{0, 0}, {7, 7}}, {0, 1}], Frame -> Automatic, 
-             FrameLabel -> {None, None}, 
-             FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
-             Directive[
-               GrayLevel[0.5, 0.4]], 
-             Method -> {
-              "DefaultBoundaryStyle" -> Automatic, 
-               "DefaultGraphicsInteraction" -> {
-                "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-                 "Effects" -> {
-                  "Highlight" -> {"ratio" -> 2}, 
-                   "HighlightPoint" -> {"ratio" -> 2}, 
-                   "Droplines" -> {
-                    "freeformCursorMode" -> True, 
-                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-               "DefaultPlotStyle" -> Automatic}], 
-            "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, \
-1}\\n{0,1,s___}->{0, 1, 1}\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
-           "Labeled",
-           DisplayFunction->(GridBox[{{
-               TagBox[
-                ItemBox[
-                 PaneBox[
-                  TagBox[#, "SkipImageSizeLevel"], 
-                  Alignment -> {Center, Baseline}, BaselinePosition -> 
-                  Baseline], DefaultBaseStyle -> "Labeled"], 
-                "SkipImageSizeLevel"]}, {
-               ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             BaselinePosition -> {1, 1}]& ),
-           InterpretationFunction->(RowBox[{"Labeled", "[", 
-              RowBox[{#, ",", #2, ",", 
-                RowBox[{"{", "}"}]}], "]"}]& )], ",", 
-          TemplateBox[{
-            GraphicsBox[
-             RasterBox[CompressedData["
+       "], {{0, 0}, {7, 7}}, {0, 1}], Frame -> Automatic, 
+      FrameLabel -> {None, None}, FrameTicks -> {{None, None}, {None, None}}, 
+      GridLinesStyle -> Directive[
+        GrayLevel[0.5, 0.4]], 
+      Method -> {
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic}], 
+     "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, 1}\\n{0,1,s___}->{0, 1, 1}\
+\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
+    "Labeled",
+    DisplayFunction->(GridBox[{{
+        TagBox[
+         ItemBox[
+          PaneBox[
+           TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+           BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+         "SkipImageSizeLevel"]}, {
+        ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+      AutoDelete -> False, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      BaselinePosition -> {1, 1}]& ),
+    InterpretationFunction->(RowBox[{"Labeled", "[", 
+       RowBox[{#, ",", #2, ",", 
+         RowBox[{"{", "}"}]}], "]"}]& )], ",", 
+   TemplateBox[{
+     GraphicsBox[
+      RasterBox[CompressedData["
 1:eJxTTMoPSmVmYGAQgmIQ+1jn+jKR58fsWx1nuk3uvmx/WMCy1vb+W/vBJi56
 4o1Olfore5Fox8tC2gftHfm35kqwHqW5+L7m+RYNde/t5W8d56qb/d5eSPjK
 B10d0t1DqjmDLfxHWnyRGi9DPR5pHW6kxhep4qTGC6nmDDbxoRJftHb/YIuX
 oRJfpLpzNL7IK5donV8Gyj2DTZzW7bTBlq+Ha/6iln9pXY6Nxhd122MD1Z4f
 afE1UOXnaHwNrXYItcRpHV+j7Z+hJT5Q9f5gC4ehIj46DjO0xGld74/G1+DM
 d6P1Gn3yy6j44BQfjcfBKQ4AvtZvrg==
-              "], {{0, 0}, {18, 18}}, {0, 
-              1}], Frame -> Automatic, FrameLabel -> {None, None}, 
-             FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
-             Directive[
-               GrayLevel[0.5, 0.4]], 
-             Method -> {
-              "DefaultBoundaryStyle" -> Automatic, 
-               "DefaultGraphicsInteraction" -> {
-                "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-                 "Effects" -> {
-                  "Highlight" -> {"ratio" -> 2}, 
-                   "HighlightPoint" -> {"ratio" -> 2}, 
-                   "Droplines" -> {
-                    "freeformCursorMode" -> True, 
-                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-               "DefaultPlotStyle" -> Automatic}], 
-            "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, \
-1}\\n{0,1,s___}->{0, 1, 1}\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
-           "Labeled",
-           DisplayFunction->(GridBox[{{
-               TagBox[
-                ItemBox[
-                 PaneBox[
-                  TagBox[#, "SkipImageSizeLevel"], 
-                  Alignment -> {Center, Baseline}, BaselinePosition -> 
-                  Baseline], DefaultBaseStyle -> "Labeled"], 
-                "SkipImageSizeLevel"]}, {
-               ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             BaselinePosition -> {1, 1}]& ),
-           InterpretationFunction->(RowBox[{"Labeled", "[", 
-              RowBox[{#, ",", #2, ",", 
-                RowBox[{"{", "}"}]}], "]"}]& )], ",", 
-          TemplateBox[{
-            GraphicsBox[
-             RasterBox[CompressedData["
+       "], {{0, 0}, {18, 18}}, {0, 1}], 
+      Frame -> Automatic, FrameLabel -> {None, None}, 
+      FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
+      Directive[
+        GrayLevel[0.5, 0.4]], 
+      Method -> {
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic}], 
+     "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, 1}\\n{0,1,s___}->{0, 1, 1}\
+\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
+    "Labeled",
+    DisplayFunction->(GridBox[{{
+        TagBox[
+         ItemBox[
+          PaneBox[
+           TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+           BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+         "SkipImageSizeLevel"]}, {
+        ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+      AutoDelete -> False, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      BaselinePosition -> {1, 1}]& ),
+    InterpretationFunction->(RowBox[{"Labeled", "[", 
+       RowBox[{#, ",", #2, ",", 
+         RowBox[{"{", "}"}]}], "]"}]& )], ",", 
+   TemplateBox[{
+     GraphicsBox[
+      RasterBox[CompressedData["
 1:eJztmzFLQzEURgsi4qSWFhwcdBLUudChhDo4KrgqDoKbIjg4CNrJQVwEcXB0
 cXXyB6hYOuvo4FioSv+CCK5PjE3Ml+QMghzkNS/Nyf3eNW9mc3d1a6hUKs19
 /3z93j652a902+a4ebl0fvpsHsbrh43XDwPX5CNPj9cX931zOFqd2jjrm1Jt
@@ -3449,46 +3420,43 @@ w33k8FS5mqfk+Z957PXC1XuacHgOPHbfbb1mH4DnzEPltFDnUjj/DM+Zx+K7
 7/GrfS9weA6+244T3+HwwX2P/T1N3meEw/3V99jPpah9L3C4su+hcji+w+H+
 8nzRddT+H4fvcPjvfQ+V//EdDtfZB2Lh+A5X5vSf4fB8eKi+mdo8wOE5cM6R
 wuH5cN99M3yHw/U5z/VwuD7HLzgczj4Ah6fHPwFfPiag
-              "], {{0, 0}, {42, 
-              42}}, {0, 1}], Frame -> Automatic, FrameLabel -> {None, None}, 
-             FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
-             Directive[
-               GrayLevel[0.5, 0.4]], 
-             Method -> {
-              "DefaultBoundaryStyle" -> Automatic, 
-               "DefaultGraphicsInteraction" -> {
-                "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-                 "Effects" -> {
-                  "Highlight" -> {"ratio" -> 2}, 
-                   "HighlightPoint" -> {"ratio" -> 2}, 
-                   "Droplines" -> {
-                    "freeformCursorMode" -> True, 
-                    "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-               "DefaultPlotStyle" -> Automatic}], 
-            "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, \
-1}\\n{0,1,s___}->{0, 1, 1}\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
-           "Labeled",
-           DisplayFunction->(GridBox[{{
-               TagBox[
-                ItemBox[
-                 PaneBox[
-                  TagBox[#, "SkipImageSizeLevel"], 
-                  Alignment -> {Center, Baseline}, BaselinePosition -> 
-                  Baseline], DefaultBaseStyle -> "Labeled"], 
-                "SkipImageSizeLevel"]}, {
-               ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
-             GridBoxAlignment -> {
-              "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
-             False, GridBoxItemSize -> {
-              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
-             BaselinePosition -> {1, 1}]& ),
-           InterpretationFunction->(RowBox[{"Labeled", "[", 
-              RowBox[{#, ",", #2, ",", 
-                RowBox[{"{", "}"}]}], "]"}]& )]}], "}"}], "}"}], "}"}], "}"}],
-      "}"}], "}"}], "}"}], "}"}]], "Output",
- CellChangeTimes->{{3.8664833196386833`*^9, 3.8664833553110456`*^9}},
- CellLabel->
-  "Out[1742]=",ExpressionUUID->"7b765351-e9be-44b3-a71b-e53486044d99"]
+       "], {{0, 0}, {42, 42}}, {
+       0, 1}], Frame -> Automatic, FrameLabel -> {None, None}, 
+      FrameTicks -> {{None, None}, {None, None}}, GridLinesStyle -> 
+      Directive[
+        GrayLevel[0.5, 0.4]], 
+      Method -> {
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic}], 
+     "\"{0,0,s___}->{0, 1, 1}\\n{1,0,s___}->{0, 1, 1}\\n{0,1,s___}->{0, 1, 1}\
+\\n{1,1,s___}->{0, 1, 1}\\n{1, 1, 1}\""},
+    "Labeled",
+    DisplayFunction->(GridBox[{{
+        TagBox[
+         ItemBox[
+          PaneBox[
+           TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+           BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+         "SkipImageSizeLevel"]}, {
+        ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+      GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+      AutoDelete -> False, 
+      GridBoxItemSize -> {
+       "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+      BaselinePosition -> {1, 1}]& ),
+    InterpretationFunction->(RowBox[{"Labeled", "[", 
+       RowBox[{#, ",", #2, ",", 
+         RowBox[{"{", "}"}]}], "]"}]& )]}], "}"}]], "Output",
+ CellChangeTimes->{{3.8664833196386833`*^9, 3.8664833553110456`*^9}, {
+  3.866824746387076*^9, 3.866824779958881*^9}},
+ CellLabel->"Out[59]=",ExpressionUUID->"02ddcb7a-41e7-4aa0-b26e-fd5548cf767c"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3663,7 +3631,7 @@ a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" ->
  CellChangeTimes->{
   3.866641530309485*^9, {3.866641631291046*^9, 3.866641649439695*^9}, {
    3.8666436003145523`*^9, 3.8666436120946627`*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"934abd8d-66fe-4a07-83a8-fd0410941c3b"],
+ CellLabel->"In[60]:=",ExpressionUUID->"934abd8d-66fe-4a07-83a8-fd0410941c3b"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -4408,8 +4376,8 @@ Cell[BoxData[
   FormatType->TraditionalForm,
   FrameTicks->None]], "Output",
  CellChangeTimes->{3.866552346956244*^9, 3.866641651765355*^9, 
-  3.86664361266877*^9, 3.8666436621682*^9},
- CellLabel->"Out[8]=",ExpressionUUID->"708e8c2e-b8d1-45c5-9d52-d6f1c09760f5"]
+  3.86664361266877*^9, 3.8666436621682*^9, 3.8668251275524473`*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"edb7c737-b26f-4c5e-ba0a-046e1fb4856e"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -4590,8 +4558,7 @@ a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" ->
  CellChangeTimes->{{3.866552351458169*^9, 3.8665523553313913`*^9}, {
   3.866553597148428*^9, 3.866553616997881*^9}, {3.866553891831299*^9, 
   3.866553893432838*^9}, {3.8666416801679993`*^9, 3.8666417052664537`*^9}},
- CellLabel->
-  "In[293]:=",ExpressionUUID->"f1ab521b-b765-4f89-8f66-453ad7de3875"],
+ CellLabel->"In[62]:=",ExpressionUUID->"f1ab521b-b765-4f89-8f66-453ad7de3875"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -4773,7 +4740,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 293, 17469047342567542908, 5/2],
+            OutputSizeLimit`Defer, 62, 17470775585939144643, 5/2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -4810,7 +4777,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 293, 17469047342567542908, 5 2],
+            OutputSizeLimit`Defer, 62, 17470775585939144643, 5 2],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -4847,7 +4814,7 @@ Cell[BoxData[
            BaselinePosition->Baseline,
            
            ButtonFunction:>OutputSizeLimit`ButtonFunction[
-            OutputSizeLimit`Defer, 293, 17469047342567542908, Infinity],
+            OutputSizeLimit`Defer, 62, 17470775585939144643, Infinity],
            Enabled->True,
            Evaluator->Automatic,
            Method->"Queued"], 
@@ -4915,15 +4882,15 @@ Cell[BoxData[
     StripOnInput->False],
    Deploy,
    DefaultBaseStyle->"Deploy"],
-  If[17469047342567542908 === $SessionID, 
-   Out[293], Message[
+  If[17470775585939144643 === $SessionID, 
+   Out[62], Message[
      MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
    Null]]], "Output",
  CellChangeTimes->{
   3.866552355943439*^9, {3.866553620185582*^9, 3.8665536255533447`*^9}, 
-   3.866553894499764*^9, {3.866641706024126*^9, 3.866641709049498*^9}},
- CellLabel->
-  "Out[293]=",ExpressionUUID->"13aa8e90-c52e-4089-8667-f44666119199"]
+   3.866553894499764*^9, {3.866641706024126*^9, 3.866641709049498*^9}, 
+   3.866825236797556*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"bb8c45e1-59d0-4949-bd22-84a5b6185b54"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -12471,7 +12438,7 @@ a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" ->
       URL["https://www.wolframcloud.com/obj/wolframphysics/BranchialGraph"], 
       "ExampleNotebookData" -> Automatic|>]],
    Selectable->False], "[", 
-  RowBox[{"NestGraph", "[", 
+  RowBox[{"NestGraph", "[", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"ReplaceList", "[", 
      RowBox[{"{", "\[IndentingNewLine]", 
@@ -12503,10 +12470,12 @@ a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" ->
         RowBox[{"Flatten", "[", 
          RowBox[{"{", 
           RowBox[{"left", ",", "s", ",", "1", ",", "0", ",", "1"}], "}"}], 
-         "]"}]}]}], "}"}], "]"}], ",", 
+         "]"}]}]}], "\[IndentingNewLine]", "}"}], "]"}], ",", 
+    "\[IndentingNewLine]", 
     RowBox[{"{", 
      RowBox[{"{", 
-      RowBox[{"1", ",", "1", ",", "1"}], "}"}], "}"}], ",", "t", ",", 
+      RowBox[{"1", ",", "1", ",", "1"}], "}"}], "}"}], ",", 
+    "\[IndentingNewLine]", "5", ",", "\[IndentingNewLine]", 
     RowBox[{"VertexShapeFunction", "->", 
      RowBox[{"_", "->", 
       RowBox[{"(", 
@@ -12517,150 +12486,2061 @@ a519aabc-1b40-49ea-950c-dc56ac7f957f"]}, "DocumentationLink" ->
            RowBox[{
             RowBox[{"{", "#2", "}"}], ",", 
             RowBox[{"ImageSize", "->", "32"}]}], "]"}], ",", "#1", ",", 
-          "#3"}], "]"}], "&"}], ")"}]}]}], ",", 
+          "#3"}], "]"}], "&"}], ")"}]}]}], ",", "\[IndentingNewLine]", 
     RowBox[{"GraphLayout", "->", "\"\<LayeredDigraphEmbedding\>\""}], ",", 
-    RowBox[{"PerformanceGoal", "->", "\"\<Quality\>\""}]}], "]"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"PerformanceGoal", "->", "\"\<Quality\>\""}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"ImageSize", "->", "Full"}]}], "\[IndentingNewLine]", "]"}], 
   "]"}]], "Input",
- CellLabel->"In[63]:=",ExpressionUUID->"97e48a8a-284d-43cd-9813-7f8a6c51dd77"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NestGraph", "intpm", 
-   "\"Positive machine-sized integer expected at position \\!\\(\\*RowBox[{\\\
-\"3\\\"}]\\) in \\!\\(\\*RowBox[{\\\"NestGraph\\\", \\\"[\\\", \
-RowBox[{RowBox[{\\\"ReplaceList\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
-RowBox[{RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"left___\\\", \\\",\\\", \
-\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"s___\\\"}], \\\"}\\\"}], \\\"\
-\[RuleDelayed]\\\", RowBox[{\\\"Flatten\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
-RowBox[{\\\"left\\\", \\\",\\\", \\\"s\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
-\\\"0\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\"]\\\"}]}], \\\",\\\", \
-RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"left___\\\", \\\",\\\", \\\"1\\\", \
-\\\",\\\", \\\"0\\\", \\\",\\\", \\\"s___\\\"}], \\\"}\\\"}], \\\"\
-\[RuleDelayed]\\\", RowBox[{\\\"Flatten\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
-RowBox[{\\\"left\\\", \\\",\\\", \\\"s\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
-\\\"0\\\", \\\",\\\", \\\"0\\\"}], \\\"}\\\"}], \\\"]\\\"}]}], \\\",\\\", \
-RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"left___\\\", \\\",\\\", \\\"0\\\", \
-\\\",\\\", \\\"1\\\", \\\",\\\", \\\"s___\\\"}], \\\"}\\\"}], \\\"\
-\[RuleDelayed]\\\", RowBox[{\\\"Flatten\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
-RowBox[{\\\"left\\\", \\\",\\\", \\\"s\\\", \\\",\\\", \\\"1\\\", \\\",\\\", \
-\\\"1\\\"}], \\\"}\\\"}], \\\"]\\\"}]}], \\\",\\\", \
-RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"left___\\\", \\\",\\\", \\\"1\\\", \
-\\\",\\\", \\\"1\\\", \\\",\\\", \\\"s___\\\"}], \\\"}\\\"}], \\\"\
-\[RuleDelayed]\\\", RowBox[{\\\"Flatten\\\", \\\"[\\\", RowBox[{\\\"{\\\", \
-RowBox[{\\\"left\\\", \\\",\\\", \\\"s\\\", \\\",\\\", \\\"1\\\", \\\",\\\", \
-\\\"0\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\"]\\\"}]}]}], \\\"}\\\"}], \
-\\\"]\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"{\\\", RowBox[{\\\"1\\\
-\", \\\",\\\", \\\"1\\\", \\\",\\\", \\\"1\\\"}], \\\"}\\\"}], \\\"}\\\"}], \
-\\\",\\\", \\\"t\\\"}], \\\"]\\\"}]\\).\"", 2, 63, 33, 17469654881237645062, 
-   "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.866645562742076*^9},
+ CellChangeTimes->{{3.86682470543812*^9, 3.866824705639038*^9}, {
+  3.86682616165234*^9, 3.866826203400075*^9}, {3.8668262499166307`*^9, 
+  3.866826266662352*^9}},
  CellLabel->
-  "During evaluation of \
-In[63]:=",ExpressionUUID->"6f5be840-2984-4988-92c2-7f6a5360006c"],
+  "In[104]:=",ExpressionUUID->"97e48a8a-284d-43cd-9813-7f8a6c51dd77"],
 
 Cell[BoxData[
- RowBox[{
-  InterpretationBox[
-   TagBox[
-    FrameBox[
-     PaneBox[GridBox[{
-        {
-         StyleBox[
-          StyleBox[
-           AdjustmentBox["\<\"[\[FilledSmallSquare]]\"\>",
-            BoxBaselineShift->-0.25,
-            BoxMargins->{{0, 0}, {-1, -1}}], "ResourceFunctionIcon",
-           FontColor->GrayLevel[0.15]],
-          ShowStringCharacters->False,
-          FontFamily->"Source Sans Pro Black",
-          FontSize->0.65 Inherited,
-          FontWeight->"Heavy",
-          PrivateFontOptions->{"OperatorSubstitution"->False}], 
-         StyleBox[
-          RowBox[{
-           StyleBox["\<\"BranchialGraph\"\>", "ResourceFunctionLabel"], " "}],
+ GraphicsBox[
+  NamespaceBox["NetworkGraphics",
+   DynamicModuleBox[{Typeset`graph = HoldComplete[
+     Graph[{{1, 1, 1, 1}, {0, 1, 1, 0, 1}, {1, 1, 0, 0, 0}, {0, 1, 1, 1, 1}, {
+       1, 0, 1, 1, 1}, {0, 0, 1, 1, 0, 1}, {0, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 0,
+        1}, {1, 0, 0, 0, 0, 0}, {1, 1, 0, 0, 0, 0}, {1, 1, 1, 1, 1}, {0, 1, 1,
+        1, 0, 1}, {1, 0, 1, 1, 0, 1}, {1, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 
+       1}, {0, 0, 0, 1, 0, 0, 0}, {0, 1, 0, 1, 0, 0, 0}, {0, 0, 1, 1, 1, 1}, {
+       0, 1, 0, 1, 1, 1}, {0, 0, 0, 1, 1, 0, 1}, {0, 0, 1, 1, 0, 0, 0}, {0, 1,
+        1, 1, 0, 0, 0}, {1, 1, 0, 1, 0, 0, 0}, {1, 0, 0, 1, 1, 1}, {1, 0, 0, 
+       0, 1, 0, 1}, {1, 0, 1, 1, 0, 0, 0}, {1, 0, 1, 1, 1, 1}, {1, 1, 0, 1, 1,
+        1}, {1, 0, 0, 1, 1, 0, 1}, {1, 0, 0, 0, 1, 1}, {0, 0, 0, 0, 1, 0, 
+       1}, {0, 1, 0, 0, 0, 0, 0}, {0, 1, 1, 0, 0, 0, 0}, {1, 0, 0, 0, 0, 0, 
+       0}, {1, 1, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0}, {1, 1, 1, 0, 0, 0, 
+       0}, {0, 1, 1, 1, 1, 1}, {0, 1, 0, 1, 1, 0, 1}, {0, 0, 1, 1, 1, 0, 1}, {
+       1, 1, 1, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 
+       1}, {0, 0, 0, 1, 0, 0, 0, 0}, {0, 1, 0, 0, 0, 0, 0, 0}, {1, 0, 0, 0, 0,
+        0, 0, 0}, {0, 0, 0, 0, 1, 1, 1}, {0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 1, 
+       0, 1, 0, 0, 0}, {0, 1, 0, 0, 0, 1, 1}, {1, 0, 0, 0, 0, 1, 1}, {0, 0, 0,
+        0, 0, 1, 0, 1}, {0, 1, 0, 1, 0, 0, 0, 0}, {0, 1, 1, 0, 0, 0, 0, 0}, {
+       0, 0, 0, 1, 1, 1, 1}, {0, 0, 1, 0, 1, 1, 1}, {0, 0, 0, 0, 1, 1, 0, 
+       1}, {0, 0, 0, 1, 1, 0, 0, 0}, {0, 1, 1, 0, 1, 0, 0, 0}, {0, 0, 1, 0, 0,
+        0, 0, 0}, {0, 0, 1, 1, 0, 0, 0, 0}, {1, 1, 0, 0, 0, 0, 0, 0}, {1, 1, 
+       0, 0, 0, 1, 1}, {0, 1, 0, 0, 0, 1, 0, 1}, {1, 1, 0, 1, 0, 0, 0, 0}}, {
+      Null, 
+       SparseArray[
+       Automatic, {65, 65}, 0, {
+        1, {{0, 2, 4, 6, 9, 12, 15, 18, 20, 22, 24, 27, 28, 30, 32, 34, 36, 
+          38, 43, 47, 52, 59, 64, 72, 75, 80, 87, 91, 98, 102, 105, 110, 113, 
+          116, 119, 123, 124, 126, 131, 134, 136, 138, 142, 145, 148, 156, 
+          159, 161, 163, 165, 171, 174, 182, 184, 187, 191, 195, 199, 203, 
+          207, 211, 215, 223, 226, 229, 232}, {{2}, {3}, {1}, {3}, {1}, {2}, {
+          5}, {6}, {7}, {4}, {6}, {7}, {4}, {5}, {7}, {4}, {5}, {6}, {9}, {
+          10}, {8}, {10}, {8}, {9}, {12}, {13}, {14}, {11}, {11}, {14}, {
+          11}, {13}, {16}, {17}, {15}, {17}, {15}, {16}, {19}, {20}, {21}, {
+          22}, {23}, {18}, {20}, {21}, {23}, {18}, {19}, {21}, {22}, {23}, {
+          18}, {19}, {20}, {23}, {24}, {25}, {26}, {18}, {20}, {28}, {38}, {
+          39}, {18}, {19}, {20}, {21}, {26}, {27}, {28}, {29}, {21}, {25}, {
+          26}, {21}, {24}, {26}, {35}, {37}, {21}, {23}, {24}, {25}, {27}, {
+          28}, {29}, {23}, {26}, {28}, {29}, {22}, {23}, {26}, {27}, {29}, {
+          38}, {39}, {23}, {26}, {27}, {28}, {31}, {32}, {33}, {30}, {32}, {
+          33}, {34}, {35}, {30}, {31}, {33}, {30}, {31}, {32}, {31}, {35}, {
+          36}, {25}, {31}, {34}, {37}, {34}, {25}, {35}, {22}, {28}, {39}, {
+          40}, {41}, {22}, {28}, {38}, {38}, {41}, {38}, {40}, {43}, {44}, {
+          45}, {46}, {42}, {44}, {45}, {42}, {43}, {45}, {42}, {43}, {44}, {
+          50}, {51}, {52}, {53}, {54}, {42}, {52}, {62}, {48}, {49}, {47}, {
+          49}, {47}, {48}, {45}, {52}, {53}, {60}, {61}, {62}, {45}, {52}, {
+          54}, {45}, {46}, {50}, {51}, {54}, {60}, {61}, {62}, {45}, {50}, {
+          45}, {51}, {52}, {56}, {57}, {58}, {59}, {55}, {57}, {58}, {59}, {
+          55}, {56}, {58}, {59}, {55}, {56}, {57}, {59}, {55}, {56}, {57}, {
+          58}, {50}, {52}, {61}, {62}, {50}, {52}, {60}, {62}, {46}, {50}, {
+          52}, {60}, {61}, {63}, {64}, {65}, {62}, {64}, {65}, {62}, {63}, {
+          65}, {62}, {63}, {64}}}, Pattern}]}, {EdgeStyle -> {
+         Hue[0.89, 0.97, 0.71]}, GraphLayout -> {Automatic, "Dimension" -> 2},
+        ImageSize -> Full, PerformanceGoal -> "Quality", 
+       VertexShapeFunction -> {{0, 1, 0, 1, 0, 0, 0, 0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 0, 0, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 0, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 0, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 1, 1} -> (
+          Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 0, 0, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 0, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 1, 1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 1, 1, 1} -> (
+          Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 0, 0} -> (
+          Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 0, 0, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 1, 1, 1} -> (
+          Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 0, 0, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 1, 0, 1} -> (
+          Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 1, 0, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 0, 1, 1, 1, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {0, 1, 0, 1, 1, 0, 
+          1} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& ), {1, 1, 0, 1, 0, 0, 
+          0} -> (Inset[
+           ArrayPlot[{#2}, ImageSize -> 32], #, #3]& )}}]]}, 
+    TagBox[GraphicsGroupBox[{
+       {Hue[0.89, 0.97, 0.71], Opacity[0.7], 
+        LineBox[{{
+          DynamicLocation["VertexID$1", Automatic, Center], DynamicLocation[
+           "VertexID$2", Automatic, Center]}, {
+          DynamicLocation["VertexID$1", Automatic, Center], DynamicLocation[
+           "VertexID$3", Automatic, Center]}, {
+          DynamicLocation["VertexID$2", Automatic, Center], DynamicLocation[
+           "VertexID$3", Automatic, Center]}, {
+          DynamicLocation["VertexID$4", Automatic, Center], DynamicLocation[
+           "VertexID$5", Automatic, Center]}, {
+          DynamicLocation["VertexID$4", Automatic, Center], DynamicLocation[
+           "VertexID$6", Automatic, Center]}, {
+          DynamicLocation["VertexID$4", Automatic, Center], DynamicLocation[
+           "VertexID$7", Automatic, Center]}, {
+          DynamicLocation["VertexID$5", Automatic, Center], DynamicLocation[
+           "VertexID$6", Automatic, Center]}, {
+          DynamicLocation["VertexID$5", Automatic, Center], DynamicLocation[
+           "VertexID$7", Automatic, Center]}, {
+          DynamicLocation["VertexID$6", Automatic, Center], DynamicLocation[
+           "VertexID$7", Automatic, Center]}, {
+          DynamicLocation["VertexID$8", Automatic, Center], DynamicLocation[
+           "VertexID$9", Automatic, Center]}, {
+          DynamicLocation["VertexID$8", Automatic, Center], DynamicLocation[
+           "VertexID$10", Automatic, Center]}, {
+          DynamicLocation["VertexID$9", Automatic, Center], DynamicLocation[
+           "VertexID$10", Automatic, Center]}, {
+          DynamicLocation["VertexID$11", Automatic, Center], DynamicLocation[
+           "VertexID$12", Automatic, Center]}, {
+          DynamicLocation["VertexID$11", Automatic, Center], DynamicLocation[
+           "VertexID$13", Automatic, Center]}, {
+          DynamicLocation["VertexID$11", Automatic, Center], DynamicLocation[
+           "VertexID$14", Automatic, Center]}, {
+          DynamicLocation["VertexID$13", Automatic, Center], DynamicLocation[
+           "VertexID$14", Automatic, Center]}, {
+          DynamicLocation["VertexID$15", Automatic, Center], DynamicLocation[
+           "VertexID$16", Automatic, Center]}, {
+          DynamicLocation["VertexID$15", Automatic, Center], DynamicLocation[
+           "VertexID$17", Automatic, Center]}, {
+          DynamicLocation["VertexID$16", Automatic, Center], DynamicLocation[
+           "VertexID$17", Automatic, Center]}, {
+          DynamicLocation["VertexID$18", Automatic, Center], DynamicLocation[
+           "VertexID$19", Automatic, Center]}, {
+          DynamicLocation["VertexID$18", Automatic, Center], DynamicLocation[
+           "VertexID$20", Automatic, Center]}, {
+          DynamicLocation["VertexID$18", Automatic, Center], DynamicLocation[
+           "VertexID$21", Automatic, Center]}, {
+          DynamicLocation["VertexID$18", Automatic, Center], DynamicLocation[
+           "VertexID$22", Automatic, Center]}, {
+          DynamicLocation["VertexID$18", Automatic, Center], DynamicLocation[
+           "VertexID$23", Automatic, Center]}, {
+          DynamicLocation["VertexID$19", Automatic, Center], DynamicLocation[
+           "VertexID$20", Automatic, Center]}, {
+          DynamicLocation["VertexID$19", Automatic, Center], DynamicLocation[
+           "VertexID$21", Automatic, Center]}, {
+          DynamicLocation["VertexID$19", Automatic, Center], DynamicLocation[
+           "VertexID$23", Automatic, Center]}, {
+          DynamicLocation["VertexID$20", Automatic, Center], DynamicLocation[
+           "VertexID$21", Automatic, Center]}, {
+          DynamicLocation["VertexID$20", Automatic, Center], DynamicLocation[
+           "VertexID$22", Automatic, Center]}, {
+          DynamicLocation["VertexID$20", Automatic, Center], DynamicLocation[
+           "VertexID$23", Automatic, Center]}, {
+          DynamicLocation["VertexID$21", Automatic, Center], DynamicLocation[
+           "VertexID$23", Automatic, Center]}, {
+          DynamicLocation["VertexID$21", Automatic, Center], DynamicLocation[
+           "VertexID$24", Automatic, Center]}, {
+          DynamicLocation["VertexID$21", Automatic, Center], DynamicLocation[
+           "VertexID$25", Automatic, Center]}, {
+          DynamicLocation["VertexID$21", Automatic, Center], DynamicLocation[
+           "VertexID$26", Automatic, Center]}, {
+          DynamicLocation["VertexID$22", Automatic, Center], DynamicLocation[
+           "VertexID$28", Automatic, Center]}, {
+          DynamicLocation["VertexID$22", Automatic, Center], DynamicLocation[
+           "VertexID$38", Automatic, Center]}, {
+          DynamicLocation["VertexID$22", Automatic, Center], DynamicLocation[
+           "VertexID$39", Automatic, Center]}, {
+          DynamicLocation["VertexID$23", Automatic, Center], DynamicLocation[
+           "VertexID$26", Automatic, Center]}, {
+          DynamicLocation["VertexID$23", Automatic, Center], DynamicLocation[
+           "VertexID$27", Automatic, Center]}, {
+          DynamicLocation["VertexID$23", Automatic, Center], DynamicLocation[
+           "VertexID$28", Automatic, Center]}, {
+          DynamicLocation["VertexID$23", Automatic, Center], DynamicLocation[
+           "VertexID$29", Automatic, Center]}, {
+          DynamicLocation["VertexID$24", Automatic, Center], DynamicLocation[
+           "VertexID$25", Automatic, Center]}, {
+          DynamicLocation["VertexID$24", Automatic, Center], DynamicLocation[
+           "VertexID$26", Automatic, Center]}, {
+          DynamicLocation["VertexID$25", Automatic, Center], DynamicLocation[
+           "VertexID$26", Automatic, Center]}, {
+          DynamicLocation["VertexID$25", Automatic, Center], DynamicLocation[
+           "VertexID$35", Automatic, Center]}, {
+          DynamicLocation["VertexID$25", Automatic, Center], DynamicLocation[
+           "VertexID$37", Automatic, Center]}, {
+          DynamicLocation["VertexID$26", Automatic, Center], DynamicLocation[
+           "VertexID$27", Automatic, Center]}, {
+          DynamicLocation["VertexID$26", Automatic, Center], DynamicLocation[
+           "VertexID$28", Automatic, Center]}, {
+          DynamicLocation["VertexID$26", Automatic, Center], DynamicLocation[
+           "VertexID$29", Automatic, Center]}, {
+          DynamicLocation["VertexID$27", Automatic, Center], DynamicLocation[
+           "VertexID$28", Automatic, Center]}, {
+          DynamicLocation["VertexID$27", Automatic, Center], DynamicLocation[
+           "VertexID$29", Automatic, Center]}, {
+          DynamicLocation["VertexID$28", Automatic, Center], DynamicLocation[
+           "VertexID$29", Automatic, Center]}, {
+          DynamicLocation["VertexID$28", Automatic, Center], DynamicLocation[
+           "VertexID$38", Automatic, Center]}, {
+          DynamicLocation["VertexID$28", Automatic, Center], DynamicLocation[
+           "VertexID$39", Automatic, Center]}, {
+          DynamicLocation["VertexID$30", Automatic, Center], DynamicLocation[
+           "VertexID$31", Automatic, Center]}, {
+          DynamicLocation["VertexID$30", Automatic, Center], DynamicLocation[
+           "VertexID$32", Automatic, Center]}, {
+          DynamicLocation["VertexID$30", Automatic, Center], DynamicLocation[
+           "VertexID$33", Automatic, Center]}, {
+          DynamicLocation["VertexID$31", Automatic, Center], DynamicLocation[
+           "VertexID$32", Automatic, Center]}, {
+          DynamicLocation["VertexID$31", Automatic, Center], DynamicLocation[
+           "VertexID$33", Automatic, Center]}, {
+          DynamicLocation["VertexID$31", Automatic, Center], DynamicLocation[
+           "VertexID$34", Automatic, Center]}, {
+          DynamicLocation["VertexID$31", Automatic, Center], DynamicLocation[
+           "VertexID$35", Automatic, Center]}, {
+          DynamicLocation["VertexID$32", Automatic, Center], DynamicLocation[
+           "VertexID$33", Automatic, Center]}, {
+          DynamicLocation["VertexID$34", Automatic, Center], DynamicLocation[
+           "VertexID$35", Automatic, Center]}, {
+          DynamicLocation["VertexID$34", Automatic, Center], DynamicLocation[
+           "VertexID$36", Automatic, Center]}, {
+          DynamicLocation["VertexID$35", Automatic, Center], DynamicLocation[
+           "VertexID$37", Automatic, Center]}, {
+          DynamicLocation["VertexID$38", Automatic, Center], DynamicLocation[
+           "VertexID$39", Automatic, Center]}, {
+          DynamicLocation["VertexID$38", Automatic, Center], DynamicLocation[
+           "VertexID$40", Automatic, Center]}, {
+          DynamicLocation["VertexID$38", Automatic, Center], DynamicLocation[
+           "VertexID$41", Automatic, Center]}, {
+          DynamicLocation["VertexID$40", Automatic, Center], DynamicLocation[
+           "VertexID$41", Automatic, Center]}, {
+          DynamicLocation["VertexID$42", Automatic, Center], DynamicLocation[
+           "VertexID$43", Automatic, Center]}, {
+          DynamicLocation["VertexID$42", Automatic, Center], DynamicLocation[
+           "VertexID$44", Automatic, Center]}, {
+          DynamicLocation["VertexID$42", Automatic, Center], DynamicLocation[
+           "VertexID$45", Automatic, Center]}, {
+          DynamicLocation["VertexID$42", Automatic, Center], DynamicLocation[
+           "VertexID$46", Automatic, Center]}, {
+          DynamicLocation["VertexID$43", Automatic, Center], DynamicLocation[
+           "VertexID$44", Automatic, Center]}, {
+          DynamicLocation["VertexID$43", Automatic, Center], DynamicLocation[
+           "VertexID$45", Automatic, Center]}, {
+          DynamicLocation["VertexID$44", Automatic, Center], DynamicLocation[
+           "VertexID$45", Automatic, Center]}, {
+          DynamicLocation["VertexID$45", Automatic, Center], DynamicLocation[
+           "VertexID$50", Automatic, Center]}, {
+          DynamicLocation["VertexID$45", Automatic, Center], DynamicLocation[
+           "VertexID$51", Automatic, Center]}, {
+          DynamicLocation["VertexID$45", Automatic, Center], DynamicLocation[
+           "VertexID$52", Automatic, Center]}, {
+          DynamicLocation["VertexID$45", Automatic, Center], DynamicLocation[
+           "VertexID$53", Automatic, Center]}, {
+          DynamicLocation["VertexID$45", Automatic, Center], DynamicLocation[
+           "VertexID$54", Automatic, Center]}, {
+          DynamicLocation["VertexID$46", Automatic, Center], DynamicLocation[
+           "VertexID$52", Automatic, Center]}, {
+          DynamicLocation["VertexID$46", Automatic, Center], DynamicLocation[
+           "VertexID$62", Automatic, Center]}, {
+          DynamicLocation["VertexID$47", Automatic, Center], DynamicLocation[
+           "VertexID$48", Automatic, Center]}, {
+          DynamicLocation["VertexID$47", Automatic, Center], DynamicLocation[
+           "VertexID$49", Automatic, Center]}, {
+          DynamicLocation["VertexID$48", Automatic, Center], DynamicLocation[
+           "VertexID$49", Automatic, Center]}, {
+          DynamicLocation["VertexID$50", Automatic, Center], DynamicLocation[
+           "VertexID$52", Automatic, Center]}, {
+          DynamicLocation["VertexID$50", Automatic, Center], DynamicLocation[
+           "VertexID$53", Automatic, Center]}, {
+          DynamicLocation["VertexID$50", Automatic, Center], DynamicLocation[
+           "VertexID$60", Automatic, Center]}, {
+          DynamicLocation["VertexID$50", Automatic, Center], DynamicLocation[
+           "VertexID$61", Automatic, Center]}, {
+          DynamicLocation["VertexID$50", Automatic, Center], DynamicLocation[
+           "VertexID$62", Automatic, Center]}, {
+          DynamicLocation["VertexID$51", Automatic, Center], DynamicLocation[
+           "VertexID$52", Automatic, Center]}, {
+          DynamicLocation["VertexID$51", Automatic, Center], DynamicLocation[
+           "VertexID$54", Automatic, Center]}, {
+          DynamicLocation["VertexID$52", Automatic, Center], DynamicLocation[
+           "VertexID$54", Automatic, Center]}, {
+          DynamicLocation["VertexID$52", Automatic, Center], DynamicLocation[
+           "VertexID$60", Automatic, Center]}, {
+          DynamicLocation["VertexID$52", Automatic, Center], DynamicLocation[
+           "VertexID$61", Automatic, Center]}, {
+          DynamicLocation["VertexID$52", Automatic, Center], DynamicLocation[
+           "VertexID$62", Automatic, Center]}, {
+          DynamicLocation["VertexID$55", Automatic, Center], DynamicLocation[
+           "VertexID$56", Automatic, Center]}, {
+          DynamicLocation["VertexID$55", Automatic, Center], DynamicLocation[
+           "VertexID$57", Automatic, Center]}, {
+          DynamicLocation["VertexID$55", Automatic, Center], DynamicLocation[
+           "VertexID$58", Automatic, Center]}, {
+          DynamicLocation["VertexID$55", Automatic, Center], DynamicLocation[
+           "VertexID$59", Automatic, Center]}, {
+          DynamicLocation["VertexID$56", Automatic, Center], DynamicLocation[
+           "VertexID$57", Automatic, Center]}, {
+          DynamicLocation["VertexID$56", Automatic, Center], DynamicLocation[
+           "VertexID$58", Automatic, Center]}, {
+          DynamicLocation["VertexID$56", Automatic, Center], DynamicLocation[
+           "VertexID$59", Automatic, Center]}, {
+          DynamicLocation["VertexID$57", Automatic, Center], DynamicLocation[
+           "VertexID$58", Automatic, Center]}, {
+          DynamicLocation["VertexID$57", Automatic, Center], DynamicLocation[
+           "VertexID$59", Automatic, Center]}, {
+          DynamicLocation["VertexID$58", Automatic, Center], DynamicLocation[
+           "VertexID$59", Automatic, Center]}, {
+          DynamicLocation["VertexID$60", Automatic, Center], DynamicLocation[
+           "VertexID$61", Automatic, Center]}, {
+          DynamicLocation["VertexID$60", Automatic, Center], DynamicLocation[
+           "VertexID$62", Automatic, Center]}, {
+          DynamicLocation["VertexID$61", Automatic, Center], DynamicLocation[
+           "VertexID$62", Automatic, Center]}, {
+          DynamicLocation["VertexID$62", Automatic, Center], DynamicLocation[
+           "VertexID$63", Automatic, Center]}, {
+          DynamicLocation["VertexID$62", Automatic, Center], DynamicLocation[
+           "VertexID$64", Automatic, Center]}, {
+          DynamicLocation["VertexID$62", Automatic, Center], DynamicLocation[
+           "VertexID$65", Automatic, Center]}, {
+          DynamicLocation["VertexID$63", Automatic, Center], DynamicLocation[
+           "VertexID$64", Automatic, Center]}, {
+          DynamicLocation["VertexID$63", Automatic, Center], DynamicLocation[
+           "VertexID$65", Automatic, Center]}, {
+          DynamicLocation["VertexID$64", Automatic, Center], DynamicLocation[
+           "VertexID$65", Automatic, Center]}}]}, 
+       {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[0.7]}], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{0, 0, 0, 0}}, {{0, 0}, {4, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {5.625817096626573, -7.902612998904485}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$1"], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{1, 0, 0, 1, 0}}, {{0, 0}, {5, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {6.128888538047827, -7.038368058558536}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$2"], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{0, 0, 1, 1, 1}}, {{0, 0}, {5, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {5.128894881245312, -7.034817975274617}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$3"], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{1, 0, 0, 0, 0}}, {{0, 0}, {5, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.661259109313196, -7.894563416172456}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$4"], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{0, 1, 0, 0, 0}}, {{0, 0}, {5, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.794405985616265, -7.9077194802971045}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$5"], 
+        TagBox[InsetBox[
           
-          ShowAutoStyles->False,
-          ShowStringCharacters->False,
-          FontSize->0.9 Inherited,
-          FontColor->GrayLevel[0.1]]}
-       },
-       GridBoxSpacings->{"Columns" -> {{0.25}}}],
-      Alignment->Left,
-      BaseStyle->{LineSpacing -> {0, 0}, LineBreakWithin -> False},
-      BaselinePosition->Baseline,
-      FrameMargins->{{3, 0}, {0, 0}}],
-     Background->RGBColor[0.968627, 0.976471, 0.984314],
-     BaselinePosition->Baseline,
-     DefaultBaseStyle->{},
-     FrameMargins->{{0, 0}, {1, 1}},
-     FrameStyle->RGBColor[0.831373, 0.847059, 0.85098],
-     RoundingRadius->4],
-    {"FunctionResourceBox", 
-     GrayLevel[0.15], "\"BranchialGraph\""},
-    TagBoxNote->"FunctionResourceBox"],
-   ResourceFunction["BranchialGraph"],
-   Selectable->False], "[", 
-  RowBox[{"NestGraph", "[", 
-   RowBox[{
-    RowBox[{"ReplaceList", "[", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"left___", ",", "0", ",", "0", ",", "s___"}], "}"}], 
-        "\[RuleDelayed]", 
-        RowBox[{"Flatten", "[", 
-         RowBox[{"{", 
-          RowBox[{"left", ",", "s", ",", "0", ",", "0", ",", "0"}], "}"}], 
-         "]"}]}], ",", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"left___", ",", "1", ",", "0", ",", "s___"}], "}"}], 
-        "\[RuleDelayed]", 
-        RowBox[{"Flatten", "[", 
-         RowBox[{"{", 
-          RowBox[{"left", ",", "s", ",", "0", ",", "0", ",", "0"}], "}"}], 
-         "]"}]}], ",", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"left___", ",", "0", ",", "1", ",", "s___"}], "}"}], 
-        "\[RuleDelayed]", 
-        RowBox[{"Flatten", "[", 
-         RowBox[{"{", 
-          RowBox[{"left", ",", "s", ",", "1", ",", "1"}], "}"}], "]"}]}], ",", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"left___", ",", "1", ",", "1", ",", "s___"}], "}"}], 
-        "\[RuleDelayed]", 
-        RowBox[{"Flatten", "[", 
-         RowBox[{"{", 
-          RowBox[{"left", ",", "s", ",", "1", ",", "0", ",", "1"}], "}"}], 
-         "]"}]}]}], "}"}], "]"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"{", 
-      RowBox[{"1", ",", "1", ",", "1"}], "}"}], "}"}], ",", "t", ",", 
-    RowBox[{"VertexShapeFunction", "\[Rule]", 
-     RowBox[{"_", "\[Rule]", 
-      RowBox[{"(", 
-       RowBox[{
-        RowBox[{"Inset", "[", 
-         RowBox[{
-          RowBox[{"ArrayPlot", "[", 
-           RowBox[{
-            RowBox[{"{", "#2", "}"}], ",", 
-            RowBox[{"ImageSize", "\[Rule]", "32"}]}], "]"}], ",", "#1", ",", 
-          "#3"}], "]"}], "&"}], ")"}]}]}], ",", 
-    RowBox[{"GraphLayout", "\[Rule]", "\<\"LayeredDigraphEmbedding\"\>"}], 
-    ",", 
-    RowBox[{"PerformanceGoal", "\[Rule]", "\<\"Quality\"\>"}]}], "]"}], 
-  "]"}]], "Output",
- CellChangeTimes->{3.866645564046976*^9},
- CellLabel->"Out[63]=",ExpressionUUID->"161b09b9-4681-4b2b-8363-a718135f0589"]
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 0, 1, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> Automatic}], {10.647491251815316, -7.029711493881997},
+           {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$6"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 1, 1, 1}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.781163294711458, -7.042050431076216}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$7"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 1, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.2996828898934987, -7.902612998904485}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$8"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 1, 1}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.8027543313147523, -7.038368058558536}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$9"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 1, 1, 1}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.802760674512238, -7.034817975274617}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$10"], 
+        TagBox[InsetBox[
+          GraphicsBox[RasterBox[{{0, 0, 0, 0, 0}}, {{0, 0}, {5, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {7.450544113946426, -4.957224809993759}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$11"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 0, 1, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {6.336317275255093, -4.95732957909766}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$12"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 0, 0, 1, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {8.36775405079598, -4.5338437253392945}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$13"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 0, 1, 1, 1}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {8.367684051816145, -5.3808300601551435}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$14"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.9735486831604256, -7.902612998904485}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$15"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {1.4766201245816792, -7.038368058558536}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$16"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.4766264677791652, -7.034817975274617}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$17"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.654925960189529, -2.7833083651794253}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$18"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.214253359514831, -2.8849622916124407}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$19"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.6717195779052956, -2.4750101328795178}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$20"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.7638045700125655, -2.320383449053205}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$21"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.637363319292301, -2.2332956045906887}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$22"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.968958386042728, -2.000761469288242}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$23"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {5.486475676609642, -1.880059797778977}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$24"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {6.26312589754775, -1.8873764903445411}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$25"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 0, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.6315281404067346, -1.6149737956698957}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$26"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 0, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.7484127324122865, -1.344872344181128}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$27"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.1001126426294086, -1.579753831664596}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$28"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 0, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.9720008596637073, -1.112419715677829}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$29"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {11.034146723685426, -2.1446025919092624}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$30"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.863697982720106, -2.048742884001941}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$31"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.64587208161373, -2.1972247643597402}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$32"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.738138349986292, -2.6589525072607403}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$33"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.34946374530275, -1.3073434031049618}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$34"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {8.211264031408103, -1.8006985677811704}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$35"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.970920466979265, -0.4766264677791652}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$36"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 0, 1, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {7.334917062804491, -1.8385930123104566}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$37"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 0, 0, 0}}, {{0, 0}, {6, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {1.5939614420384371, -1.7522839393391219}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$38"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 0, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.156887951851843, -1.6307685701388015}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$39"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 0, 0, 1, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.5093278861654271, -1.4205967829700228}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$40"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 0, 0, 1, 1, 1}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.4766264677791643, -1.9333175550923376}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$41"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.241992626858196, -3.9346176705281977}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$42"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 1, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.932273561503431, -3.838215227170771}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$43"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {5.128056126290347, -4.288847186542347}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$44"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.173644517571825, -4.900713736625737}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$45"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.99388488064096, -4.147901517636065}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$46"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 0, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {7.951951303359646, -7.902612998904485}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$47"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 0, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {8.4550227447809, -7.038368058558536}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$48"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 1, 0, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {7.455029087978386, -7.034817975274617}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$49"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 1, 1, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.9385409303006838, -5.47653825418105}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$50"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 1, 1, 1, 1, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.20957992395891, -5.734930380665224}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$51"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 1, 0, 1, 0}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.212563047043841, -5.117833132783115}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$52"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 0, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {3.7313544430835344, -6.076458558323667}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$53"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {4.513840096936155, -5.408377029792252}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$54"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 0, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.561920491987664, -5.519625048453466}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$55"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 1, 0, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.81851963028794, -5.532362726284655}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$56"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 1, 0, 0, 1, 0}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.77913851027901, -4.808031340236601}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$57"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 1, 0, 0, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {9.576015199760725, -4.830224592715642}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$58"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 0, 1, 0, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {10.168808258738718, -4.382311059209783}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$59"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.3093915856136107, -5.222502031319428}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$60"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 1, 0, 0, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {2.244369266805154, -5.689089603451469}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$61"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 1, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {1.8352603310120736, -4.796445195826671}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$62"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 1, 1, 0, 0}}, {{0, 0}, {7, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.4766264677791652, -4.4736747452448355}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$63"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{1, 0, 1, 1, 1, 0, 1, 0}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.668513936325414, -4.9154380731083975}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$64"], 
+        TagBox[InsetBox[
+          
+          GraphicsBox[
+           RasterBox[{{0, 0, 1, 0, 1, 1, 1, 1}}, {{0, 0}, {8, 1}}, {0, 1}],
+           Frame->Automatic,
+           FrameLabel->{None, None},
+           FrameTicks->{{None, None}, {None, None}},
+           GridLinesStyle->Directive[
+             GrayLevel[0.5, 0.4]],
+           ImageSize->32,
+           Method->{
+            "DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {
+              "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+               "Effects" -> {
+                "Highlight" -> {"ratio" -> 2}, 
+                 "HighlightPoint" -> {"ratio" -> 2}, 
+                 "Droplines" -> {
+                  "freeformCursorMode" -> True, 
+                   "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultPlotStyle" -> 
+             Automatic}], {0.8557280146355151, -4.178193202395345}, {0.06755134164989363, 0.06755134164989363}],
+         "DynamicName",
+         BoxID -> "VertexID$65"]}}],
+     MouseAppearanceTag["NetworkGraphics"]],
+    AllowKernelInitialization->False]],
+  DefaultBaseStyle->{
+   "NetworkGraphics", FrontEnd`GraphicsHighlightColor -> Hue[0.8, 1., 0.6]},
+  FormatType->TraditionalForm,
+  FrameTicks->None,
+  ImageSize->Full]], "Output",
+ CellChangeTimes->{
+  3.866645564046976*^9, 3.866824658992916*^9, 3.866824706808939*^9, {
+   3.8668261585375357`*^9, 3.8668262041232986`*^9}, 3.86682626815746*^9},
+ CellLabel->
+  "Out[104]=",ExpressionUUID->"08e67d5b-511f-4b3e-8aed-d58a3ff8b21b"]
 }, Open  ]]
 },
-WindowSize->{1418, 811},
+WindowSize->{1440, 811},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
 StyleDefinitions->"Default.nb",
@@ -12690,32 +14570,31 @@ Cell[5606, 127, 14507, 314, 969, "Input",ExpressionUUID->"61783016-f210-4de5-83b
 Cell[20116, 443, 135292, 2543, 624, "Output",ExpressionUUID->"0a018c3d-1138-40e3-b0e7-5973ccf77b76"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[155445, 2991, 11519, 264, 717, "Input",ExpressionUUID->"4064afb3-7584-4933-8e6d-304b7c85e63f"],
-Cell[166967, 3257, 465, 10, 28, "Message",ExpressionUUID->"ac86d038-377a-488f-ac78-feb26f45d75c"],
-Cell[167435, 3269, 10640, 221, 462, "Output",ExpressionUUID->"7b765351-e9be-44b3-a71b-e53486044d99"]
+Cell[155445, 2991, 10433, 251, 689, "Input",ExpressionUUID->"4064afb3-7584-4933-8e6d-304b7c85e63f"],
+Cell[165881, 3244, 510, 11, 28, "Message",ExpressionUUID->"e41fedfb-2a54-4064-a99a-a1e7baa96d2c"],
+Cell[166394, 3257, 9106, 201, 305, "Output",ExpressionUUID->"02ddcb7a-41e7-4aa0-b26e-fd5548cf767c"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[178112, 3495, 6642, 170, 289, "Input",ExpressionUUID->"934abd8d-66fe-4a07-83a8-fd0410941c3b"],
-Cell[184757, 3667, 34159, 744, 345, "Output",ExpressionUUID->"708e8c2e-b8d1-45c5-9d52-d6f1c09760f5"]
+Cell[175537, 3463, 6643, 170, 289, "Input",ExpressionUUID->"934abd8d-66fe-4a07-83a8-fd0410941c3b"],
+Cell[182183, 3635, 34184, 744, 322, "Output",ExpressionUUID->"edb7c737-b26f-4c5e-ba0a-046e1fb4856e"]
 }, Open  ]],
-Cell[218931, 4414, 1362, 29, 372, "Input",ExpressionUUID->"de487a1b-f4e6-4af4-a630-720bcdc8b8a1"],
+Cell[216382, 4382, 1362, 29, 372, "Input",ExpressionUUID->"de487a1b-f4e6-4af4-a630-720bcdc8b8a1"],
 Cell[CellGroupData[{
-Cell[220318, 4447, 6010, 146, 277, "Input",ExpressionUUID->"f1ab521b-b765-4f89-8f66-453ad7de3875"],
-Cell[226331, 4595, 15941, 330, 205, "Output",ExpressionUUID->"13aa8e90-c52e-4089-8667-f44666119199"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[242309, 4930, 212, 4, 30, "Input",ExpressionUUID->"1c1871ed-78bf-4a30-8c12-4468a09af3a2"],
-Cell[242524, 4936, 315510, 4725, 2456, "Output",ExpressionUUID->"1e8a7632-0983-4836-b43f-dc5c983a9e52"]
+Cell[217769, 4415, 6006, 145, 277, "Input",ExpressionUUID->"f1ab521b-b765-4f89-8f66-453ad7de3875"],
+Cell[223778, 4562, 15959, 330, 205, "Output",ExpressionUUID->"bb8c45e1-59d0-4949-bd22-84a5b6185b54"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[558071, 9666, 7976, 184, 661, "Input",ExpressionUUID->"7234c5c0-70a7-4412-b958-722af25fff90"],
-Cell[566050, 9852, 512, 11, 28, "Message",ExpressionUUID->"8cc2a71b-2c14-4fe3-b4e6-c8ac59e965c4"],
-Cell[566565, 9865, 136723, 2545, 829, "Output",ExpressionUUID->"4e1a347e-805f-4a2f-8683-5de24fff8cbd"]
+Cell[239774, 4897, 212, 4, 30, "Input",ExpressionUUID->"1c1871ed-78bf-4a30-8c12-4468a09af3a2"],
+Cell[239989, 4903, 315510, 4725, 2456, "Output",ExpressionUUID->"1e8a7632-0983-4836-b43f-dc5c983a9e52"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[703325, 12415, 4268, 108, 142, "Input",ExpressionUUID->"97e48a8a-284d-43cd-9813-7f8a6c51dd77"],
-Cell[707596, 12525, 2196, 34, 46, "Message",ExpressionUUID->"6f5be840-2984-4988-92c2-7f6a5360006c"],
-Cell[709795, 12561, 3548, 98, 83, "Output",ExpressionUUID->"161b09b9-4681-4b2b-8363-a718135f0589"]
+Cell[555536, 9633, 7976, 184, 661, "Input",ExpressionUUID->"7234c5c0-70a7-4412-b958-722af25fff90"],
+Cell[563515, 9819, 512, 11, 28, "Message",ExpressionUUID->"8cc2a71b-2c14-4fe3-b4e6-c8ac59e965c4"],
+Cell[564030, 9832, 136723, 2545, 781, "Output",ExpressionUUID->"4e1a347e-805f-4a2f-8683-5de24fff8cbd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[700790, 12382, 4710, 117, 310, "Input",ExpressionUUID->"97e48a8a-284d-43cd-9813-7f8a6c51dd77"],
+Cell[705503, 12501, 93369, 2038, 952, "Output",ExpressionUUID->"08e67d5b-511f-4b3e-8aed-d58a3ff8b21b"]
 }, Open  ]]
 }
 ]
