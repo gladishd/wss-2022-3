@@ -1,0 +1,516 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     20707,        506]
+NotebookOptionsPosition[     16996,        414]
+NotebookOutlinePosition[     19564,        489]
+CellTagsIndexPosition[     19521,        486]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["WOLFRAM SUMMER SCHOOL 2022", "Title",
+ CellMargins->{{0, 3}, {0, 30}},
+ TextAlignment->Center,
+ FontSize->22,
+ FontColor->GrayLevel[
+  0.4],ExpressionUUID->"a988dfa7-e022-4446-9a65-21304f9d52ad"],
+
+Cell["Multi-way Tag Systems in Coordinatized Rulial Space", "Title",
+ CellMargins->{{0, 3}, {15, 0}},
+ TextAlignment->Center,
+ FontColor->RGBColor[
+  0.0784313725490196, 0.5294117647058824, 
+   0.615686274509804],ExpressionUUID->"734c9ebe-c866-46e8-8625-fd7b0fd114cf"],
+
+Cell[TextData[{
+ "Dean Gladish",
+ " (",
+ StyleBox["Mentor",
+  FontWeight->Bold],
+ ": ",
+ "James Boyd",
+ ")"
+}], "Text",
+ TextAlignment->Center,ExpressionUUID->"72085952-f168-49f1-a526-7985314c5c7a"],
+
+Cell["Metamathematics track", "Text",
+ TextAlignment->Center,ExpressionUUID->"474787f8-4030-4f1d-a180-1994f5bf8e89"],
+
+Cell[BoxData[
+ GraphicsBox[
+  NamespaceBox[{
+    {Hue[0.75, 0, 0.35], AbsoluteThickness[1], Opacity[0.7], Dashing[None], 
+     Arrowheads[Medium], 
+     ArrowBox[BezierCurveBox[{{0.8008916095282734, 0.04514827318735026}, {
+      0.7345813844141578, 0.2443508847563995}, {0.7994894849539212, 
+      0.4441331810484597}}]], 
+     ArrowBox[BezierCurveBox[{{0.8491340861379221, 0.04514827318735026}, {
+      1.1275413957431224`, 0.42359597474141153`}, {1.568677676452022, 
+      0.5605687356252373}}]], 
+     ArrowBox[BezierCurveBox[{{0.8299772616825735, 0.04514827318735026}, {
+      1.0350553951253862`, 0.7038289103060782}, {1.5680954985815796`, 
+      1.0953289461726246`}}]], 
+     ArrowBox[BezierCurveBox[{{0.7548375317548812, 0.044745329987028}, {
+      0.22045848366920182`, 0.4361960339085806}, {0.014265686737580533`, 
+      1.0955367108116878`}}]], 
+     ArrowBox[BezierCurveBox[{{0.7548375317548812, 0.018779223569326594`}, {
+      0.3129815275744838, 0.15462255829217603`}, {0.03340848218358526, 
+      0.5324379932995625}}]], 
+     ArrowBox[BezierCurveBox[{{0.8291867751348004, 0.44413318104845967`}, {
+      0.895497000248916, 0.24493056947941808`}, {0.8305888997091517, 
+      0.04514827318735026}}]], 
+     ArrowBox[BezierCurveBox[{{0.8752408529081921, 0.5171438828780021}, {
+      1.2071179063954467`, 0.6685265442208269}, {1.5686776764520223`, 
+      0.5923966003804657}}]], 
+     ArrowBox[BezierCurveBox[{{0.8436824467685148, 0.5344297274231604}, {
+      1.114631905777713, 0.9487594797855009}, {1.5680954985815796`, 
+      1.117466909157952}}]], 
+     ArrowBox[BezierCurveBox[{{0.7530749372247734, 0.5120745823785546}, {
+      0.30003499432152986`, 0.681126603387994}, {0.029608510692703947`, 
+      1.0955367108116878`}}]], 
+     ArrowBox[BezierCurveBox[{{0.7530749372247731, 0.4762812800334148}, {
+      0.39255803822680163`, 0.39955312777159613`}, {0.061082957841709425`, 
+      0.5498838896467985}}]], 
+     ArrowBox[BezierCurveBox[{{1.5965470377524, 0.5343867133322457}, {
+      1.3181397281471963`, 0.1559390117781831}, {0.8770034474382999, 
+      0.018966250894358643`}}]], 
+     ArrowBox[BezierCurveBox[{{1.5686776764520223`, 0.551672557877404}, {
+      1.2368006229647697`, 0.40028989653457847`}, {0.8752408529081921, 
+      0.47641984037494045`}}]], 
+     ArrowBox[BezierCurveBox[{{1.6148602329062887`, 0.6246832597069464}, {
+      1.5372746336759933`, 0.859767922084272}, {1.6143819592190665`, 
+      1.0950440519896067`}}]], 
+     ArrowBox[BezierCurveBox[{{1.568677676452022, 0.6021695750644165}, {
+      1.1152303375378565`, 0.7701967025270867}, {0.8439205492293925, 
+      1.1838962110794817`}}]], 
+     ArrowBox[BezierCurveBox[{{1.5686776764520223`, 0.624277617975944}, {
+      1.0347690038575112`, 1.015360168875803}, {0.8287360615442284, 
+      1.674123191869337}}]], 
+     ArrowBox[BezierCurveBox[{{1.6151216843373064`, 1.0950440519896067`}, {
+      1.410043550894494, 0.4363634148708737}, {0.8770034474382999, 
+      0.04486337900433206}}]], 
+     ArrowBox[BezierCurveBox[{{1.599653904721257, 1.0950440519896067`}, {
+      1.3287044457120647`, 0.6807142996272697}, {0.8752408529081922, 
+      0.5120068702548154}}]], 
+     ArrowBox[BezierCurveBox[{{1.6440788578107306`, 1.0950440519896067`}, {
+      1.7216644570410262`, 0.8599593896122597}, {1.6445571314979552`, 
+      0.6246832597069465}}]], 
+     ArrowBox[BezierCurveBox[{{1.5680954985815796`, 1.1272285792429262`}, {
+      1.2071341602851595`, 1.0506211056197776`}, {0.8753946528478647, 
+      1.2013000738036155`}}]], 
+     ArrowBox[BezierCurveBox[{{1.5680954985815796`, 1.1591056150732253`}, {
+      1.1266728266048092`, 1.2957845719684842`}, {0.8478842767971174, 
+      1.674123191869337}}]], 
+     ArrowBox[BezierCurveBox[{{0.06122961772225172, 1.0959396540120099`}, {
+      0.5956086658079314, 0.7044889500904545}, {0.8018014627395524, 
+      0.04514827318735026}}]], 
+     ArrowBox[BezierCurveBox[{{0.06122961772225172, 1.1178918558562936`}, {
+      0.5142695606254969, 0.9488398348468526}, {0.7846960442543213, 
+      0.5344297274231604}}]], 
+     ArrowBox[BezierCurveBox[{{0.014982061735124487`, 1.095536710811688}, {
+      0.09266970378581987, 0.8591115083826381}, {0.014861463485617819`, 
+      0.6227345396742632}}]], 
+     ArrowBox[BezierCurveBox[{{0.061229617722251724`, 1.1683921810818807`}, {
+      0.3926992751985808, 1.3187466408393567`}, {0.753228737164446, 
+      1.2420404796189868`}}]], 
+     ArrowBox[BezierCurveBox[{{0.0334395379984499, 1.1858332571863888`}, {
+      0.31223794151823636`, 1.5639101071880737`}, {0.7535326518245679, 
+      1.700381430975549}}]], 
+     ArrowBox[BezierCurveBox[{{0.06108295784170942, 0.5588070429175859}, {
+      0.5029389620221103, 0.4229637081947341}, {0.7825120074130054, 
+      0.04514827318735026}}]], 
+     ArrowBox[BezierCurveBox[{{0.06108295784170942, 0.5905864406893081}, {
+      0.42159985683967655`, 0.6673145929511264}, {0.7530749372247734, 
+      0.516983831075924}}]], 
+     ArrowBox[BezierCurveBox[{{-0.014835401854582049`, 
+      0.6227345396742632}, {-0.09252304390527698, 
+      0.8591597421033135}, {-0.014714803605075412`, 1.0955367108116878`}}]], 
+     ArrowBox[BezierCurveBox[{{0.029470804335660013`, 0.6227345396742632}, {
+      0.30002957141276687`, 1.0372213989436356`}, {0.753228737164446, 
+      1.2062610335180608`}}]], 
+     ArrowBox[BezierCurveBox[{{0.014065190817930206`, 0.6227345396742632}, {
+      0.21956823773241926`, 1.2823848652923555`}, {0.753532651824568, 
+      1.674424068002762}}]], 
+     ArrowBox[BezierCurveBox[{{0.8753946528478646, 1.2064098957220124`}, {
+      1.328841991762031, 1.0383827682593443`}, {1.600151780070495, 
+      0.6246832597069466}}]], 
+     ArrowBox[BezierCurveBox[{{0.8753946528478646, 1.242008230200863}, {
+      1.2363559911443105`, 1.3186157038240158`}, {1.5680954985815796`, 
+      1.1679367356401762`}}]], 
+     ArrowBox[BezierCurveBox[{{0.7532287371644459, 1.20133728718399}, {
+      0.4217590796881089, 1.0509828274265123`}, {0.06122961772225172, 
+      1.127688988646883}}]], 
+     ArrowBox[BezierCurveBox[{{0.7848408906704955, 1.1838962110794817`}, {
+      0.5142821235933912, 0.7694093518101117}, {0.06108295784170942, 
+      0.6003697172356841}}]], 
+     ArrowBox[BezierCurveBox[{{0.7994942740905456, 1.274192757454183}, {
+      0.7338503613258087, 1.4742079506155463`}, {0.7997361548260286, 
+      1.674123191869337}}]], 
+     ArrowBox[BezierCurveBox[{{0.8756985675079869, 1.6745288336003397`}, {
+      1.4096072401025024`, 1.283446282700479}, {1.6156401824157811`, 
+      0.6246832597069465}}]], 
+     ArrowBox[BezierCurveBox[{{0.8756985675079869, 1.700358175160418}, {
+      1.3171212394847627`, 1.5636792182651493`}, {1.5959097892924485`, 
+      1.1853405983643075`}}]], 
+     ArrowBox[BezierCurveBox[{{0.7813227315483694, 1.674123191869337}, {
+      0.5025243280285764, 1.2960463418676504`}, {0.06122961772225171, 
+      1.1595750180801765`}}]], 
+     ArrowBox[BezierCurveBox[{{0.8005504188483477, 1.6741231918693371`}, {
+      0.5950473719338639, 1.0144728662512528`}, {0.061082957841709425`, 
+      0.6224336635408384}}]], 
+     ArrowBox[BezierCurveBox[{{0.8294330305818867, 1.674123191869337}, {
+      0.8950769433466222, 1.4741079987079688`}, {0.8291911498464044, 
+      1.2741927574541827`}}]]}, 
+    {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[0.7]}], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"010\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0.8159204895965904, 0.}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$1"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"000\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0.8141578950664825, 0.4892814542358101}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$2"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"001\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {1.6297606342937314, 0.579534986519596}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$3"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"011\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {1.629178456423289, 1.1401923251769572}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$4"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"100\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0.00014665988054229917, 1.1406849839990383}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$5"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"110\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0., 0.577586266486913}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$6"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"101\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0.8143116950061551, 1.2290444842668322}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$7"], 
+     TagBox[InsetBox[
+       FrameBox[
+        StyleBox["\<\"111\"\>",
+         StripOnInput->False,
+         LineColor->Hue[0.62, 1, 0.48],
+         FrontFaceColor->Hue[0.62, 1, 0.48],
+         BackFaceColor->Hue[0.62, 1, 0.48],
+         GraphicsColor->Hue[0.62, 1, 0.48],
+         FontColor->Hue[0.62, 1, 0.48]],
+        Background->Directive[
+          Opacity[0.2], 
+          Hue[0.62, 0.45, 0.87]],
+        FrameMargins->{{2, 2}, {0, 0}},
+        FrameStyle->Directive[
+          Opacity[0.5], 
+          Hue[0.62, 0.52, 0.82]],
+        RoundingRadius->0,
+        StripOnInput->False], {0.8146156096662772, 1.7192714650566874}, 
+       ImageScaled[{0.5, 0.5}]],
+      "DynamicName",
+      BoxID -> "VertexID$8"]}}],
+  FormatType->TraditionalForm,
+  Frame->{{True, False}, {True, False}},
+  FrameTicks->None,
+  ImageSize->{333.5196228027344, Automatic}]],
+ TextAlignment->Center,ExpressionUUID->"dbf2adac-1b63-4314-9d93-4d3d68af76a9"],
+
+Cell[CellGroupData[{
+
+Cell["GOAL", "Subsubsection",
+ CellChangeTimes->{{3.865349705900526*^9, 
+  3.86534970657264*^9}},ExpressionUUID->"841baf2b-7bb9-485f-88a6-\
+116b786469ca"],
+
+Cell["\<\
+To advance our understanding of computational irreducibility, my project \
+studies the behavior of tag systems with different rules and initial \
+conditions, evaluated as single-way rules and multi-way tag systems.\
+\>", "Text",ExpressionUUID->"7e6fcaf5-6fac-4769-81bc-d43159d2c001"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["SUMMARY OF RESULTS", "Subsubsection",
+ CellChangeTimes->{{3.865349710492414*^9, 
+  3.865349713804612*^9}},ExpressionUUID->"09ae6108-e747-44dd-ab8a-\
+6f06d128f1bc"],
+
+Cell["\<\
+A topic in multi-way tag systems, my project focuses on an effective \
+procedure for determining of an arbitrary initial sequence and binarized \
+sequence rules.\
+\>", "Text",ExpressionUUID->"c41df3c9-fd6c-449c-b172-9a17ad76c5a2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["FUTURE WORK", "Subsubsection",
+ CellChangeTimes->{{3.865349717036646*^9, 
+  3.865349718844692*^9}},ExpressionUUID->"00e8bb1f-bf38-464a-9e51-\
+01ea6b070376"],
+
+Cell["\<\
+Although we didn\[CloseCurlyQuote]t get as far as studying the Turing Machine \
+Group, it\[CloseCurlyQuote]s the natural next step to take in the future. \
+Since the choice of 0 and 1 is somewhat arbitrary, we could explore the Law \
+of Excluded Middle symbolically. \
+\>", "Text",ExpressionUUID->"0568f636-64dd-4f62-b2aa-2830fb9ca4f1"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJytk8FuwkAMRBNO/Eb/AnHjyDX9giABN5BCpap/3yIRPOPxqllvLAWxWT/v
+rMf5ON2Hy6brusf272cYvw/TNP58PhfH29f5ep52p+f2/vVw9O+IVpKeJnHf
+Hs6z/VLlWnLejapYjfmdMWuRpg93sNr6pCfiyu2kV+M9W+rnchKDp0GfctSQ
+vQRWYUf+i6UkK0Ud6kdJey3Javj7ijV59fUkd8FPnD8jys6QsQ9+7rGm9reO
+xDnXKl4zK24jkeWedxJ4Xo7UHNbFvdH8DFm6N3sQ3bKFVGdx+vlb0DMy5OwG
+ulLujGXZ/wzJuaxKc7z+LInesmrtivqVJ/n2eAOdheh9Ddm7wK6oX6WpryM5
+WAm/1enMk6jUa/dzz91rIb0j/N3GHmn/2siogyXf1iFVnWlnzS0kOmCcrrlr
+LaTXoN6jusinWvIXZoMPwg==
+    "], {{0, 58.}, {58., 0}}, {0, 1},
+    ColorFunction->GrayLevel],
+   BoxForm`ImageTag["Bit", ColorSpace -> Automatic, Interleaving -> None],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSizeRaw->{58., 58.},
+  PlotRange->{{0, 58.}, {0, 58.}}]], "Output",
+ TextAlignment->Center,ExpressionUUID->"45e89a1c-931e-453e-aa83-7078f229fe97"]
+}, Open  ]]
+}, Open  ]]
+},
+ShowPageBreaks->True,
+WindowSize->{662, 772},
+WindowMargins->{{Automatic, 300}, {Automatic, 0}},
+WindowElements->{
+ "StatusArea", "MemoryMonitor", "MagnificationPopUp", "HorizontalScrollBar", 
+  "VerticalScrollBar", "MenuBar"},
+PrintingCopies->1,
+PrintingPageRange->{1, Automatic},
+PrintingOptions->{"PaperOrientation"->"Portrait",
+"PaperSize"->{1728, 2592}},
+Magnification->0.5,
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->Notebook[{
+   Cell[
+    CellGroupData[{
+      Cell[
+       StyleData[StyleDefinitions -> "Default.nb"]], 
+      Cell[
+       StyleData[All, "Printout"], 
+       PrintingOptions -> {"PageSize" -> {1728, 2592}}, Magnification -> 
+       2.5]}, Open]], 
+   Cell[
+    StyleData["Notebook"], PageHeaders -> {{
+       Cell[
+        TextData[{
+          Cell[
+           TextData[{
+             CounterBox["Page"]}], "PageNumber"], "   ", 
+          Cell[
+          " ", "Header", CellFrame -> {{0.5, 0}, {0, 0}}, CellFrameMargins -> 
+           4], 
+          Cell[
+           TextData[{
+             ValueBox["FileName"]}], "Header"]}], 
+        CellMargins -> {{0, Inherited}, {Inherited, Inherited}}], None, 
+       None}, {None, None, 
+       Cell[
+        TextData[{
+          Cell[
+           TextData[{
+             ValueBox["FileName"]}], "Header"], 
+          Cell[
+          " ", "Header", CellFrame -> {{0, 0.5}, {0, 0}}, CellFrameMargins -> 
+           4], "   ", 
+          Cell[
+           TextData[{
+             CounterBox["Page"]}], "PageNumber"]}], 
+        CellMargins -> {{Inherited, 0}, {Inherited, Inherited}}]}}, 
+    PageHeaderLines -> {False, False}, PageFooterLines -> {False, False}, 
+    PrintingOptions -> {
+     "FacingPages" -> True, "FirstPageFace" -> Right, "FirstPageFooter" -> 
+      True, "FirstPageHeader" -> False, 
+      "PrintingMargins" -> {{120, 120}, {54, 54}}}, 
+    PrintingOptions -> {PrintingOptions -> {"PageSize" -> {1728, 2592}}}], 
+   Cell[
+    StyleData["Title"], CellMargins -> {{0, 0}, {10, 0}}, TextAlignment -> 
+    Center, LineSpacing -> {0.875, 0}, FontColor -> 
+    RGBColor[0.068, 0.45, 0.55]], 
+   Cell[
+    StyleData["Subsubsection"], FontColor -> Hue[0.055, 1., 0.9]]}, Visible -> 
+  False, FrontEndVersion -> 
+  "13.0 for Mac OS X x86 (64-bit) (February 4, 2022)", StyleDefinitions -> 
+  "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"e1e4b614-9d54-4c32-adcd-2e002550b0b3"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 201, 5, 28, "Title",ExpressionUUID->"a988dfa7-e022-4446-9a65-21304f9d52ad"],
+Cell[784, 29, 268, 5, 60, "Title",ExpressionUUID->"734c9ebe-c866-46e8-8625-fd7b0fd114cf"],
+Cell[1055, 36, 198, 9, 16, "Text",ExpressionUUID->"72085952-f168-49f1-a526-7985314c5c7a"],
+Cell[1256, 47, 116, 1, 16, "Text",ExpressionUUID->"474787f8-4030-4f1d-a180-1994f5bf8e89"],
+Cell[1375, 50, 13243, 298, 165, InheritFromParent,ExpressionUUID->"dbf2adac-1b63-4314-9d93-4d3d68af76a9"],
+Cell[CellGroupData[{
+Cell[14643, 352, 154, 3, 23, "Subsubsection",ExpressionUUID->"841baf2b-7bb9-485f-88a6-116b786469ca"],
+Cell[14800, 357, 293, 4, 35, "Text",ExpressionUUID->"7e6fcaf5-6fac-4769-81bc-d43159d2c001"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15130, 366, 169, 3, 23, "Subsubsection",ExpressionUUID->"09ae6108-e747-44dd-ab8a-6f06d128f1bc"],
+Cell[15302, 371, 240, 4, 24, "Text",ExpressionUUID->"c41df3c9-fd6c-449c-b172-9a17ad76c5a2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15579, 380, 162, 3, 23, "Subsubsection",ExpressionUUID->"00e8bb1f-bf38-464a-9e51-01ea6b070376"],
+Cell[15744, 385, 346, 5, 35, "Text",ExpressionUUID->"0568f636-64dd-4f62-b2aa-2830fb9ca4f1"],
+Cell[16093, 392, 875, 18, 35, "Output",ExpressionUUID->"45e89a1c-931e-453e-aa83-7078f229fe97"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
