@@ -1,0 +1,1030 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     42820,       1020]
+NotebookOptionsPosition[     41700,        993]
+NotebookOutlinePosition[     42097,       1009]
+CellTagsIndexPosition[     42054,       1006]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"wordsquare", "[", "s_String", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"n", "=", 
+       RowBox[{"StringLength", "[", "s", "]"}]}], ",", 
+      RowBox[{"c", "=", 
+       RowBox[{"{", 
+        RowBox[{"{", 
+         RowBox[{"Characters", "[", "s", "]"}], "}"}], "}"}]}], ",", "w", ",", 
+      RowBox[{"m", "=", "1"}]}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"w", "=", 
+      RowBox[{"Characters", "/@", 
+       RowBox[{"Select", "[", 
+        RowBox[{
+         RowBox[{"WordList", "[", "]"}], ",", 
+         RowBox[{
+          RowBox[{"StringMatchQ", "[", 
+           RowBox[{"#", ",", 
+            RowBox[{"Repeated", "[", 
+             RowBox[{"_", ",", 
+              RowBox[{"{", "n", "}"}]}], "]"}]}], "]"}], "&"}]}], "]"}]}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"NestWhile", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"computewords", "[", 
+         RowBox[{"w", ",", "n", ",", 
+          RowBox[{"m", "++"}], ",", "#"}], "]"}], "&"}], ",", "c", ",", 
+       RowBox[{
+        RowBox[{"m", "<", "n"}], "&"}]}], "]"}]}]}], "]"}]}], "\n", 
+ RowBox[{
+  RowBox[{"computewords", "[", 
+   RowBox[{"w_", ",", "n_Integer", ",", "m_Integer", ",", "c_List"}], "]"}], ":=", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{
+    RowBox[{"DeleteCases", "[", 
+     RowBox[{
+      RowBox[{"Map", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Cases", "[", 
+          RowBox[{"w", ",", 
+           RowBox[{
+            RowBox[{"p", ":", 
+             RowBox[{"Append", "[", 
+              RowBox[{
+               RowBox[{"#", "[", 
+                RowBox[{"[", 
+                 RowBox[{"All", ",", 
+                  RowBox[{"m", "+", "1"}]}], "]"}], "]"}], ",", 
+               RowBox[{"Repeated", "[", 
+                RowBox[{"_", ",", 
+                 RowBox[{"{", 
+                  RowBox[{"n", "-", "m"}], "}"}]}], "]"}]}], "]"}]}], ":>", 
+            RowBox[{"Append", "[", 
+             RowBox[{"#", ",", "p"}], "]"}]}]}], "]"}], "&"}], ",", "c"}], 
+       "]"}], ",", 
+      RowBox[{"{", "}"}]}], "]"}], ",", "1"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.867449912982031*^9, 3.8674499129874268`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
+
+Cell[BoxData[
+ RowBox[{"wordsquare", "[", 
+  RowBox[{"\"\<ant\>\"", ",", "\"\<new\>\"", ",", "\"\<two\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.867449957836843*^9, 3.867449964142783*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"67280e06-c970-4cf2-8f58-ccc87e449131"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"wordsquare", "[", 
+  RowBox[{"\"\<ant\>\"", ",", "\"\<new\>\"", ",", "\"\<two\>\""}], "]"}]], \
+"Input",
+ CellChangeTimes->{3.867449969774864*^9},
+ CellLabel->"In[11]:=",ExpressionUUID->"c7110c0a-210c-4139-8d2c-b33be18b7ee1"],
+
+Cell[BoxData[
+ RowBox[{"wordsquare", "[", 
+  RowBox[{"\<\"ant\"\>", ",", "\<\"new\"\>", ",", "\<\"two\"\>"}], 
+  "]"}]], "Output",
+ CellChangeTimes->{3.8674499698143187`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"20487fe6-3be0-4176-b911-fea9a68e49ff"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.86745004828403*^9, 3.867450051154786*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"2080b607-d5c2-4392-b272-27a7502839f7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"e\"\>", ",", "\<\"e\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"e\"\>", ",", "\<\"a\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"e\"\>", ",", "\<\"e\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"e\"\>", ",", "\<\"e\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"e\"\>", ",", "\<\"e\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"e\"\>", ",", "\<\"n\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"e\"\>", ",", "\<\"w\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"w\"\>", ",", "\<\"o\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"o\"\>", ",", "\<\"r\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"r\"\>", ",", "\<\"y\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"o\"\>", ",", "\<\"w\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"w\"\>", ",", "\<\"o\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"t\"\>", ",", "\<\"h\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"h\"\>", ",", "\<\"e\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"t\"\>", ",", "\<\"h\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"h\"\>", ",", "\<\"o\"\>"}], "}"}]}], 
+    "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"\<\"a\"\>", ",", "\<\"n\"\>", ",", "\<\"t\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"n\"\>", ",", "\<\"t\"\>", ",", "\<\"h\"\>"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"\<\"t\"\>", ",", "\<\"h\"\>", ",", "\<\"y\"\>"}], "}"}]}], 
+    "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.8674500527610607`*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"45e5968f-4704-4810-b2fa-2c6e1bafc473"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"WordCloud", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}], "[", 
+      RowBox[{"[", "i", "]"}], "]"}], "[", 
+     RowBox[{"[", "j", "]"}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "1", ",", 
+     RowBox[{"Length", "[", 
+      RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}], "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"j", ",", "1", ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8674500962106123`*^9, 3.867450112186995*^9}, {
+  3.86745014508854*^9, 3.867450166361377*^9}, {3.867450218338825*^9, 
+  3.867450220969891*^9}, {3.867450251883089*^9, 3.867450253069289*^9}, {
+  3.86745029197383*^9, 3.8674503167223053`*^9}, {3.867450360130213*^9, 
+  3.8674504483906507`*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[1.320754716981132],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.660377358490566],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7954545454545455],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7954545454545455],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {31.5, -0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7954545454545455],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-27.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-41., 47.}, {-28., 23.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[1.320754716981132],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.660377358490566],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[1.4893617021276595`],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7446808510638298],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {21.5, 7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-18., 29.}, {-27., 20.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[1.320754716981132],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.660377358490566],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7777777777777778],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7777777777777778],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {32.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7777777777777778],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-27.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-41., 49.}, {-27., 23.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"w\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6542056074766355],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6542056074766355],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {35.5, -14.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6542056074766355],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-37.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-54., 53.}, {-42., 13.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"w\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"o\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-37.5, -9.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {33.5, 9.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-57., 47.}, {-37., 32.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"o\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7526881720430109],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7526881720430109],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-34.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"r\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7526881720430109],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {27.5, 0.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-51., 42.}, {-27., 14.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"y\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.9090909090909092],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.9090909090909092],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-24.5, 9.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"r\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.9090909090909092],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {24.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-38., 39.}, {-41., 32.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"w\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6194690265486725],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"o\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6194690265486725],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-37.5, -9.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6194690265486725],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {39.5, -9.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-57., 56.}, {-37., 13.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"w\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"o\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-37.5, -9.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.6730769230769231],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {33.5, 9.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-57., 47.}, {-37., 32.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7865168539325842],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"e\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7865168539325842],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {31.5, 18.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7865168539325842],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-26.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-40., 49.}, {-35., 32.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"o\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7692307692307693],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7692307692307693],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-34.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.7692307692307693],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {26.5, 4.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-51., 40.}, {-27., 29.}}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"a\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"n\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.813953488372093],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
+     GraphicsBox[{InsetBox[
+        StyleBox["\<\"y\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.8045977011494253],
+         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
+        Automatic], InsetBox[
+        StyleBox["\<\"h\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.8045977011494253],
+         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-31.5, -2.5}, 
+        Center, Automatic], InsetBox[
+        StyleBox["\<\"t\"\>",
+         StripOnInput->False,
+         FontSize->Scaled[0.8045977011494253],
+         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 9.5}, 
+        Center, Automatic]},
+      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
+      Method->{
+       "DefaultBoundaryStyle" -> Automatic, 
+        "DefaultGraphicsInteraction" -> {
+         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
+          "Effects" -> {
+           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
+            "Droplines" -> {
+             "freeformCursorMode" -> True, 
+              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+        "DefaultPlotStyle" -> Automatic},
+      PlotRange->{{-48., 39.}, {-41., 32.}}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.867450099507708*^9, 3.86745011256109*^9}, {
+   3.8674501462492657`*^9, 3.86745016672407*^9}, {3.867450219701044*^9, 
+   3.867450221376317*^9}, 3.867450253519599*^9, {3.867450298555442*^9, 
+   3.8674503170812893`*^9}, {3.867450361428912*^9, 3.8674504540995092`*^9}},
+ CellLabel->"Out[34]=",ExpressionUUID->"8ea910e9-9c2c-45b9-9b1f-e7999cd73271"]
+}, Open  ]]
+},
+WindowSize->{926, 653},
+WindowMargins->{{Automatic, 226}, {63, Automatic}},
+FrontEndVersion->"13.0 for Mac OS X x86 (64-bit) (February 4, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0cb680f9-9ce4-47b3-8ca4-437529e1f0f8"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2298, 64, 136, "Input",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
+Cell[2859, 86, 274, 5, 30, "Input",ExpressionUUID->"67280e06-c970-4cf2-8f58-ccc87e449131"],
+Cell[CellGroupData[{
+Cell[3158, 95, 249, 5, 30, InheritFromParent,ExpressionUUID->"c7110c0a-210c-4139-8d2c-b33be18b7ee1"],
+Cell[3410, 102, 253, 5, 34, "Output",ExpressionUUID->"20487fe6-3be0-4176-b911-fea9a68e49ff"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3700, 112, 217, 3, 30, "Input",ExpressionUUID->"2080b607-d5c2-4392-b272-27a7502839f7"],
+Cell[3920, 117, 3191, 85, 77, "Output",ExpressionUUID->"45e5968f-4704-4810-b2fa-2c6e1bafc473"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7148, 207, 889, 20, 30, "Input",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
+Cell[8040, 229, 33644, 761, 1550, "Output",ExpressionUUID->"8ea910e9-9c2c-45b9-9b1f-e7999cd73271"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
