@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     42820,       1020]
-NotebookOptionsPosition[     41700,        993]
-NotebookOutlinePosition[     42097,       1009]
-CellTagsIndexPosition[     42054,       1006]
+NotebookDataLength[     32571,        653]
+NotebookOptionsPosition[     31358,        625]
+NotebookOutlinePosition[     31755,        641]
+CellTagsIndexPosition[     31712,        638]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -82,7 +82,7 @@ Cell[BoxData[{
        "]"}], ",", 
       RowBox[{"{", "}"}]}], "]"}], ",", "1"}], "]"}]}]}], "Input",
  CellChangeTimes->{{3.867449912982031*^9, 3.8674499129874268`*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
+ CellLabel->"In[68]:=",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
 
 Cell[BoxData[
  RowBox[{"wordsquare", "[", 
@@ -112,7 +112,8 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}]], "Input",
- CellChangeTimes->{{3.86745004828403*^9, 3.867450051154786*^9}},
+ CellChangeTimes->{{3.86745004828403*^9, 3.867450051154786*^9}, {
+  3.874364711762624*^9, 3.874364723282407*^9}},
  CellLabel->"In[12]:=",ExpressionUUID->"2080b607-d5c2-4392-b272-27a7502839f7"],
 
 Cell[BoxData[
@@ -205,791 +206,422 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell[BoxData[
+Cell[BoxData[{
+ RowBox[{"word", " ", "=", 
+  RowBox[{"RandomChoice", "[", 
+   RowBox[{"WordList", "[", "\"\<CommonWords\>\"", "]"}], 
+   "]"}]}], "\[IndentingNewLine]", 
  RowBox[{"Table", "[", 
   RowBox[{
    RowBox[{"WordCloud", "[", 
     RowBox[{
      RowBox[{
-      RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}], "[", 
+      RowBox[{"wordsquare", "[", "\"\<twain\>\"", "]"}], "[", 
       RowBox[{"[", "i", "]"}], "]"}], "[", 
      RowBox[{"[", "j", "]"}], "]"}], "]"}], ",", 
    RowBox[{"{", 
     RowBox[{"i", ",", "1", ",", 
      RowBox[{"Length", "[", 
-      RowBox[{"wordsquare", "[", "\"\<ant\>\"", "]"}], "]"}]}], "}"}], ",", 
+      RowBox[{"wordsquare", "[", "\"\<twain\>\"", "]"}], "]"}]}], "}"}], ",", 
+   
    RowBox[{"{", 
-    RowBox[{"j", ",", "1", ",", "3"}], "}"}]}], "]"}]], "Input",
+    RowBox[{"j", ",", "1", ",", "3"}], "}"}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.8674500962106123`*^9, 3.867450112186995*^9}, {
   3.86745014508854*^9, 3.867450166361377*^9}, {3.867450218338825*^9, 
   3.867450220969891*^9}, {3.867450251883089*^9, 3.867450253069289*^9}, {
   3.86745029197383*^9, 3.8674503167223053`*^9}, {3.867450360130213*^9, 
-  3.8674504483906507`*^9}},
- CellLabel->"In[34]:=",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
+  3.8674504483906507`*^9}, {3.874364760354006*^9, 3.874364780390382*^9}, {
+  3.8743648213196917`*^9, 3.874365037557976*^9}},
+ CellLabel->
+  "In[141]:=",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
 
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[1.320754716981132],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.660377358490566],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7954545454545455],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7954545454545455],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {31.5, -0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7954545454545455],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-27.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-41., 47.}, {-28., 23.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[1.320754716981132],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.660377358490566],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[1.4893617021276595`],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7446808510638298],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {21.5, 7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-18., 29.}, {-27., 20.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[1.320754716981132],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.660377358490566],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-18., 35.}, {-27., 14.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7777777777777778],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7777777777777778],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {32.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7777777777777778],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-27.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-41., 49.}, {-27., 23.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"w\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6542056074766355],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6542056074766355],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {35.5, -14.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6542056074766355],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-37.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-54., 53.}, {-42., 13.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"w\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"o\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-37.5, -9.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {33.5, 9.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-57., 47.}, {-37., 32.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"o\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7526881720430109],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7526881720430109],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-34.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"r\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7526881720430109],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {27.5, 0.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-51., 42.}, {-27., 14.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"y\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.9090909090909092],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.9090909090909092],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-24.5, 9.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"r\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.9090909090909092],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {24.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-38., 39.}, {-41., 32.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"w\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6194690265486725],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"o\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6194690265486725],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-37.5, -9.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6194690265486725],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {39.5, -9.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-57., 56.}, {-37., 13.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"w\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"o\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-37.5, -9.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.6730769230769231],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {33.5, 9.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-57., 47.}, {-37., 32.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7865168539325842],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"e\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7865168539325842],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {31.5, 18.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7865168539325842],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-26.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-40., 49.}, {-35., 32.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"o\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7692307692307693],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7692307692307693],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-34.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.7692307692307693],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {26.5, 4.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-51., 40.}, {-27., 29.}}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"a\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {30.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {-25.5, -7.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-39., 47.}, {-35., 15.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"n\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {-31.5, 0.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.813953488372093],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {24.5, 8.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-48., 38.}, {-26., 31.}}], ",", 
-     GraphicsBox[{InsetBox[
-        StyleBox["\<\"y\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.8045977011494253],
-         FontColor->RGBColor[0.560181, 0.691569, 0.194885]], {0, 0}, Center, 
-        Automatic], InsetBox[
-        StyleBox["\<\"h\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.8045977011494253],
-         FontColor->RGBColor[0.368417, 0.506779, 0.709798]], {-31.5, -2.5}, 
-        Center, Automatic], InsetBox[
-        StyleBox["\<\"t\"\>",
-         StripOnInput->False,
-         FontSize->Scaled[0.8045977011494253],
-         FontColor->RGBColor[0.880722, 0.611041, 0.142051]], {25.5, 9.5}, 
-        Center, Automatic]},
-      DefaultBaseStyle->{"Graphics", FontFamily -> "Source Sans Pro"},
-      Method->{
-       "DefaultBoundaryStyle" -> Automatic, 
-        "DefaultGraphicsInteraction" -> {
-         "Version" -> 1.2, "TrackMousePosition" -> {True, False}, 
-          "Effects" -> {
-           "Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> {"ratio" -> 2}, 
-            "Droplines" -> {
-             "freeformCursorMode" -> True, 
-              "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
-        "DefaultPlotStyle" -> Automatic},
-      PlotRange->{{-48., 39.}, {-41., 32.}}]}], "}"}]}], "}"}]], "Output",
+Cell[BoxData["\<\"futuristic\"\>"], "Output",
  CellChangeTimes->{{3.867450099507708*^9, 3.86745011256109*^9}, {
    3.8674501462492657`*^9, 3.86745016672407*^9}, {3.867450219701044*^9, 
    3.867450221376317*^9}, 3.867450253519599*^9, {3.867450298555442*^9, 
-   3.8674503170812893`*^9}, {3.867450361428912*^9, 3.8674504540995092`*^9}},
- CellLabel->"Out[34]=",ExpressionUUID->"8ea910e9-9c2c-45b9-9b1f-e7999cd73271"]
-}, Open  ]]
+   3.8674503170812893`*^9}, {3.867450361428912*^9, 3.8674504540995092`*^9}, {
+   3.8743647810415907`*^9, 3.8743649282125263`*^9}, {3.874364958481517*^9, 
+   3.874365037823022*^9}},
+ CellLabel->
+  "Out[141]=",ExpressionUUID->"4f8b5585-b072-48d7-ab55-cb8b872a78df"]
+}, Open  ]],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1: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
+WnG3FH95GH6fsvHTP5A//79C1jteX2D/+Vo5xv9d8RVHbzanPOzLb5hq6ld1
+j2mGZnRTStO0yoSmJHU9ioKGqbSS4Qs53e+crSbbdGHjlBzf/CqM3+2cr9DX
+7Vem/wMwGIaK6u4/Gxo/ds5XoU/J2qvYhnonyolV7wQDfiD9qLu1ZPVIc9w2
+1mMYq5FnW6ZDr7LWYLt1bPUYYN2+PTOB6Kk/A/H3Oy2Di6QGfGSQK3m9td0L
+GgN7EAlWAgwzMLV87VH/ztNkFjbsOFVusLhEfBWcBAMeS3+KMuMfOXXDIqCs
+79qn8mlIbXFQ70Q5seqdJ/g4n0+H+vjQMbgMbqYj/8a/Ifu9RNZWjB/8ZvUY
+YPz39NYRPvM1EPcOGgmP3myRMs7vPlOZXjI8o5Kap8Dj9TcPqIhMfy4/4M5F
+KxTnfOVizo9EGGdt0RS96tENEO9bzEO9E+XEsHeALVqmz/8rdAwuY7U9+xz/
+hjx9jbiGVtecmE/vYD9mx3cYp4wbSeRYRz2+YBQ3vMdntHeOLpF9n2J1eC7c
+75auniW9gDkXTMBjXi5/Q6Jx1pSv2CdySfVti0C9E+XEsHcC+iXsX+3NF0Ip
+RHGBazz97GHcWGFcdnza66InKy+Ufbgo2UCIbCLItG/0Um6PoFH9XFaXrIHR
+6nsVb0p77JZXS2bfrt+uVuf9gpx0/jpUjsoSziJWod6JcmLYO09W3rz8EfdX
+880MPcGFZdv5Ai5sNQ7cDqDQKx7f7DCuG45HKTKc95fI5B2t0cEzUsHFnJ45
+NeFkdqxMKoxScpi+f7FW+ssUr3F8Mft7xKUTKtYhlvyDFFa2gnc8HRWynoWs
+xLZ37NnncH81V3VO0O9nDexpjtsmtCHcsm3jR79F/+qqysbqb4L8m4VnOiZb
+nJysilFgGH/9eGnywz7Vclhj0bQNSVrzMDa/PrSRIDy6QWXGN/h6JPW5xfsv
+Lj361WL2i4o7/4/np9xLUMJcyiqR9Q66aw0YtRsLLtnKavEOt7F+kKWYlmU9
+BbmJbe8A6UdtN4/gAteImIP4pvpxDQX0S9aUT9n/dfcPgn6fHCe+inzecbh8
+e85UsQ7gCZkdanKvSwRR0DAl2ju3ClkSy/KE8VgWc17iFAcSjaX3ktcwtm5u
+hSZKlr6rS49+A39cnfsTur6aD1EVr2AVxqyHveNXyrukP3qIbe88TT/KnmfN
+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
+uCQ=
+    "], {{0, 91.}, {276., 0}}, {0, 255},
+    ColorFunction->RGBColor,
+    ImageResolution->{144., 144.},
+    SmoothingQuality->"High"],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->Automatic,
+  ImageSizeRaw->{276., 91.},
+  PlotRange->{{0, 276.}, {0, 91.}}]], "Input",
+ CellChangeTimes->{{3.874365126949851*^9, 
+  3.874365149370521*^9}},ExpressionUUID->"0c64b56c-a2e1-42ce-a090-\
+49e58cead116"]
 },
 WindowSize->{926, 653},
 WindowMargins->{{Automatic, 226}, {63, Automatic}},
@@ -1008,23 +640,22 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 2298, 64, 136, "Input",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
-Cell[2859, 86, 274, 5, 30, "Input",ExpressionUUID->"67280e06-c970-4cf2-8f58-ccc87e449131"],
+Cell[558, 20, 2299, 64, 136, "Input",ExpressionUUID->"d4e64780-c8a2-4ad0-92cb-84c876b3d1cf"],
+Cell[2860, 86, 274, 5, 30, "Input",ExpressionUUID->"67280e06-c970-4cf2-8f58-ccc87e449131"],
 Cell[CellGroupData[{
-Cell[3158, 95, 249, 5, 30, InheritFromParent,ExpressionUUID->"c7110c0a-210c-4139-8d2c-b33be18b7ee1"],
-Cell[3410, 102, 253, 5, 34, "Output",ExpressionUUID->"20487fe6-3be0-4176-b911-fea9a68e49ff"]
+Cell[3159, 95, 249, 5, 30, "Input",ExpressionUUID->"c7110c0a-210c-4139-8d2c-b33be18b7ee1"],
+Cell[3411, 102, 253, 5, 34, "Output",ExpressionUUID->"20487fe6-3be0-4176-b911-fea9a68e49ff"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3700, 112, 217, 3, 30, "Input",ExpressionUUID->"2080b607-d5c2-4392-b272-27a7502839f7"],
-Cell[3920, 117, 3191, 85, 77, "Output",ExpressionUUID->"45e5968f-4704-4810-b2fa-2c6e1bafc473"]
+Cell[3701, 112, 266, 4, 30, "Input",ExpressionUUID->"2080b607-d5c2-4392-b272-27a7502839f7"],
+Cell[3970, 118, 3191, 85, 77, "Output",ExpressionUUID->"45e5968f-4704-4810-b2fa-2c6e1bafc473"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7148, 207, 889, 20, 30, "Input",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
-Cell[8040, 229, 33644, 761, 1550, "Output",ExpressionUUID->"8ea910e9-9c2c-45b9-9b1f-e7999cd73271"]
-}, Open  ]]
+Cell[7198, 208, 1155, 27, 52, "Input",ExpressionUUID->"dd171ae3-199a-432c-818d-4a6049f6a77b"],
+Cell[8356, 237, 520, 8, 34, "Output",ExpressionUUID->"4f8b5585-b072-48d7-ab55-cb8b872a78df"]
+}, Open  ]],
+Cell[8891, 248, 22463, 375, 104, InheritFromParent,ExpressionUUID->"0c64b56c-a2e1-42ce-a090-49e58cead116"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 

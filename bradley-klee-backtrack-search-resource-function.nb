@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10839,        253]
-NotebookOptionsPosition[     10138,        232]
-NotebookOutlinePosition[     10534,        248]
-CellTagsIndexPosition[     10491,        245]
+NotebookDataLength[     11383,        266]
+NotebookOptionsPosition[     10586,        244]
+NotebookOutlinePosition[     10982,        260]
+CellTagsIndexPosition[     10939,        257]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -170,7 +170,19 @@ Cell[BoxData[
  CellChangeTimes->{{3.866029735490609*^9, 3.86602975251954*^9}, {
   3.866029860618713*^9, 3.8660298627036543`*^9}},
  CellLabel->
-  "Out[115]=",ExpressionUUID->"58bcf021-c8ff-4590-9a2b-6c9ec3cf0067"]
+  "Out[115]=",ExpressionUUID->"58bcf021-c8ff-4590-9a2b-6c9ec3cf0067"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Set", "write", 
+   "\"Tag \\!\\(\\*RowBox[{\\\"Inherited\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"Inherited\\\", \\\"[\\\", \\\"\\\\\\\"State\\\\\\\"\\\", \
+\\\"]\\\"}]\\) is Protected.\"", 2, 1, 1, 17520216593394938154, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.8743620511415586`*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"c17995fa-b7c9-47cd-b169-bef1e86b94db"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -249,15 +261,14 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 922, 24, 136, "Input",ExpressionUUID->"fcfa3061-6497-4978-a9e2-b8b1eae4c96f"],
-Cell[1505, 48, 6618, 124, 188, "Output",ExpressionUUID->"58bcf021-c8ff-4590-9a2b-6c9ec3cf0067"]
+Cell[1505, 48, 6618, 124, 188, "Output",ExpressionUUID->"58bcf021-c8ff-4590-9a2b-6c9ec3cf0067"],
+Cell[8126, 174, 445, 10, 28, "Message",ExpressionUUID->"c17995fa-b7c9-47cd-b169-bef1e86b94db"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8160, 177, 858, 23, 73, "Input",ExpressionUUID->"d8407875-0fdc-4c9f-9642-f566b96cfc58"],
-Cell[9021, 202, 1101, 27, 77, "Output",ExpressionUUID->"0a692766-f0e1-4296-8ead-e6bbb0d01f17"]
+Cell[8608, 189, 858, 23, 73, "Input",ExpressionUUID->"d8407875-0fdc-4c9f-9642-f566b96cfc58"],
+Cell[9469, 214, 1101, 27, 77, "Output",ExpressionUUID->"0a692766-f0e1-4296-8ead-e6bbb0d01f17"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
